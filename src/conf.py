@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
+import glob
 import time
 
 # !! This is the configuration of Nikola. !! #
@@ -134,9 +135,15 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
+        ("http://sourceforge.net/project/platformdownload.php?group_id=182840", "Download"),
+        ("http://uriparser.sourceforge.net/doc/html/", "API Documentation"),
+        ("https://sourceforge.net/p/uriparser/git/ci/master/tree/", "Git Repository"),
+        ("doc/users/", "Users"),
+        ("https://sourceforge.net/p/uriparser/bugs/", "Report a Bug"),
+        #("/archive.html", "Archive"),
+        #("/archive.html", "Archive"),
+        #("/categories/", "Tags"),
+        #("/rss.xml", "RSS feed"),
     ),
 }
 
@@ -187,12 +194,18 @@ POSTS = (
     ("posts/*.txt", "posts", "post.tmpl"),
     ("posts/*.html", "posts", "post.tmpl"),
 )
-PAGES = (
-    ("pages/*.rst", "pages", "page.tmpl"),
-    ("pages/*.md", "pages", "page.tmpl"),
-    ("pages/*.txt", "pages", "page.tmpl"),
-    ("pages/*.html", "pages", "page.tmpl"),
+PAGES = tuple(
+    (fn, "doc", "page.tmpl")
+    for fn
+    in sorted(glob.glob("pages/*.md"))
+    if fn != 'pages/welcome.md'
+) + (
+    ("pages/welcome.md", "", "page.tmpl"),
+    ("pages/*.rst", "doc", "page.tmpl"),
+    ("pages/*.txt", "doc", "page.tmpl"),
+    ("pages/*.html", "doc", "page.tmpl"),
 )
+
 
 
 # Below this point, everything is optional
@@ -1132,7 +1145,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # SHOW_SOURCELINK = True
 # Copy the source files for your pages?
 # Setting it to False implies SHOW_SOURCELINK = False
-# COPY_SOURCES = True
+COPY_SOURCES = False
 
 # Modify the number of Post per Index Page
 # Defaults to 10
@@ -1306,6 +1319,7 @@ UNSLUGIFY_TITLES = True
 
 # Plugins you don't want to use. Be careful :-)
 # DISABLED_PLUGINS = ["render_galleries"]
+DISABLED_PLUGINS = ["render_taxonomies"]
 
 # Special settings to disable only parts of the indexes plugin (to allow RSS
 # but no blog indexes, or to allow blog indexes and Atom but no site-wide RSS).
