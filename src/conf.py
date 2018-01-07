@@ -137,9 +137,9 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("http://sourceforge.net/project/platformdownload.php?group_id=182840", "Download"),
         ("doc/api/", "API Documentation"),
-        ("https://sourceforge.net/p/uriparser/git/ci/master/tree/", "Git Repository"),
+        ("https://github.com/uriparser/uriparser", "Git Repository"),
         ("doc/users/", "Users"),
-        ("https://sourceforge.net/p/uriparser/bugs/", "Report a Bug"),
+        ("https://github.com/uriparser/uriparser/issues", "Report a Bug"),
         #("/archive.html", "Archive"),
         #("/archive.html", "Archive"),
         #("/categories/", "Tags"),

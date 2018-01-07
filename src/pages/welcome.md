@@ -18,7 +18,7 @@ written in C.
 uriparser is cross-platform,
 fast,
 supports Unicode, and
-is licensed under the [New BSD license](https://sourceforge.net/p/uriparser/git/ci/master/tree/COPYING).
+is licensed under the [New BSD license](https://github.com/uriparser/uriparser/blob/master/COPYING).
 
 There are a number of [applications and libraries using uriparser](doc/users/),
 as well as [bindings and 3rd-party wrappers](doc/bindings/).
@@ -31,7 +31,7 @@ Please continue with:
 
 
 If you have found a bug,
-please [report it](https://sourceforge.net/p/uriparser/bugs/)
+please [report it](https://github.com/uriparser/uriparser/issues)
 so it gets fixed.
 Thank you!
 
@@ -51,7 +51,7 @@ Sebastian Pipping
 * Unicode support
 * No external dependencies
 * Extensive unit testing using [CppTest](http://cpptest.sourceforge.net/)
-* Liberal license ([New BSD license](https://sourceforge.net/p/uriparser/git/ci/master/tree/COPYING))
+* Liberal license ([New BSD license](https://github.com/uriparser/uriparser/blob/master/COPYING))
 
 
 # Dependencies
