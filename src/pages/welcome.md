@@ -27,7 +27,7 @@ uriparser is [packaged in major distributions](doc/packages/).
 
 Please continue with:
 
-* [API Documentation](http://uriparser.sourceforge.net/doc/html/)
+* [API Documentation](doc/api/)
 
 
 If you have found a bug,
