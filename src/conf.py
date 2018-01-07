@@ -136,7 +136,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("http://sourceforge.net/project/platformdownload.php?group_id=182840", "Download"),
-        ("doc/api/", "API Documentation"),
+        ("doc/api/latest/", "API Documentation"),
         ("https://github.com/uriparser/uriparser", "Git Repository"),
         ("doc/users/", "Users"),
         ("https://github.com/uriparser/uriparser/issues", "Report a Bug"),

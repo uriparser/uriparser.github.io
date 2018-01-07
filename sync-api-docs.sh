@@ -12,7 +12,7 @@ set -x
 
 set -e
 
-abstargetdir="$(dirname "$0")"/doc/api
+abstargetdir="$(dirname "$0")"/doc/api/latest
 [[ ${abstargetdir:0:1} != / ]] && abstargetdir="${PWD}/${abstargetdir}"
 
 require_clean_git
@@ -31,6 +31,7 @@ absversionfile="$(mktemp)"
     ./configure --disable-test
     make -C doc
 )
+mkdir "$(dirname "${abstargetdir}")"
 mv "${abstempdir}"/uriparser/doc/html "${abstargetdir}"
 rm -Rf "${abstempdir}"
 

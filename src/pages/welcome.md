@@ -27,7 +27,7 @@ uriparser is [packaged in major distributions](doc/packages/).
 
 Please continue with:
 
-* [API Documentation](doc/api/)
+* [API Documentation](doc/api/latest/)
 
 
 If you have found a bug,
