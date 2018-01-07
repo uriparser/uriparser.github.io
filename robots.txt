@@ -1,0 +1,4 @@
+Sitemap: https://uriparser.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: uriparser.github.io
