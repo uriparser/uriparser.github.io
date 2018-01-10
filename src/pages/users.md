@@ -66,6 +66,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [Orfeo ToolBox](https://www.orfeo-toolbox.org/) — remote sensing images processing (see [`Utilities/otbkml/src/kml/base/uri_parser.cc`](https://github.com/inglada/OTB/blob/8b6d8a7df9d54c2b13189e00ba8fcb070e78e916/Utilities/otbkml/src/kml/base/uri_parser.cc))
 * __P__
     * [**pguri**](https://github.com/petere/pguri) — uri type for PostgreSQL (see [` uri.c`](https://github.com/petere/pguri/blob/290dd477f3168bc09c7179960201ea5e9411c7a6/uri.c))
+* __R__
     * [RobotMoose](http://robotmoose.com/) (see [`jpeg_video_test/uri.cpp`](https://github.com/robotmoose/robotmoose/blob/93b18c671dbaf0682271dcd2894ba77b93d74211/jpeg_video_test/uri.cpp))
 * __S__
     * [Swarm](https://github.com/reverbrain/swarm) — high-perfomance library for web crawling (see [` swarm/url.cpp`](https://github.com/reverbrain/swarm/blob/6c61eee9317b2cdb7ccc210348af35f542b03b90/swarm/url.cpp))
