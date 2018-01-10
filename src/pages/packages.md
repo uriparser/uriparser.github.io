@@ -37,15 +37,18 @@ Wherever you go, uriparser is already waiting for you:
     * [LinuxLink](https://src.timesys.com/svn/published/factory/builder/target/software/Application/uriparser/)
     * [Lunar Linux](http://svn.foo-projects.org/svn/lunar/moonbase/trunk/web/uriparser/)
     * [Mamona](http://dev.openbossa.org/mamona/gitweb?p=mamona.git;a=tree;f=packages/liburiparser;hb=HEAD)
+    * [Mandriva](https://github.com/OpenMandrivaAssociation/uriparser/blob/master/uriparser.spec)
     * [OpenEmbedded](http://cgit.openembedded.net/cgit.cgi?url=openembedded/tree/packages/liburiparser)
     * [Pardus Linux](http://packages.pardus.org.tr/contrib/source/uriparser.html)
-    * [PLD Linux](http://cvs.pld-linux.org/cgi-bin/cvsweb/SPECS/uriparser.spec?rev=)
+    * [PLD linux](https://github.com/pld-linux/uriparser/blob/master/uriparser.spec)
     * [Slackware](http://repository.slacky.eu/slackware-12.0/development/uriparser/)
     * [SUSE Linux](http://software.opensuse.org/search?q=uriparser)
     * [T2 SDE](http://www.t2-project.org/packages/uriparser.html)
     * [Ubuntu](http://packages.ubuntu.com/source/uriparser)
 * __macOS__
     * [MacPorts](http://trac.macports.org/projects/macports/browser/trunk/dports/devel/uriparser)
+* __Windows__
+    * [Cygwin](https://github.com/cygwinports-extras/uriparser) (cygwinports-extras)
 
 
 See also:
