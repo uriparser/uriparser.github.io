@@ -18,7 +18,14 @@ We're especially interested in links open source interfaces to uriparser
 from languages other than C.
 
 
+* __C++__
+    * [cpp_uriparser](https://github.com/azerg/cpp_uriparser)
+    * [uriparser2](https://github.com/bnoordhuis/uriparser2)
+* __Lua__
+    * [lua-uriparser](https://github.com/mah0x211/lua-uriparser)
 * __Node.js__
     * [node-uriparser](https://github.com/DreamLab/node-uriparser)
 * __OOC__
     * [ooc-uriparser](https://github.com/fredreichbier/ooc-uriparser)
+* __Ruby__
+    * [ruby-uriparser](https://github.com/tlewin/ruby-uriparser)
