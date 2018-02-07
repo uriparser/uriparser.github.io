@@ -9,6 +9,13 @@
 .. type: text
 -->
 
+# Latest News
+
+* 2018-02-07 —
+  [uriparser 0.8.**5**](https://github.com/uriparser/uriparser/blob/master/ChangeLog)
+  has been released
+
+
 # What is uriparser?
 
 uriparser is a
