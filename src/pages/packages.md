@@ -44,7 +44,7 @@ Wherever you go, uriparser is already waiting for you:
     * [KaOSx](https://github.com/KaOSx/apps/blob/master/uriparser/PKGBUILD)
     * [Linuxbrew](http://braumeister.org/formula/uriparser)
     * [LinuxLink](https://src.timesys.com/svn/published/factory/builder/target/software/Application/uriparser/)
-    * [Lunar Linux](http://svn.foo-projects.org/svn/lunar/moonbase/trunk/web/uriparser/)
+    * [Lunar Linux](https://github.com/lunar-linux/moonbase-other/blob/master/libs/uriparser/DETAILS)
     * [Mamona](http://dev.openbossa.org/mamona/gitweb?p=mamona.git;a=tree;f=packages/liburiparser;hb=HEAD)
     * [Mandriva](https://github.com/OpenMandrivaAssociation/uriparser/blob/master/uriparser.spec)
     * [NixOS](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/libraries/uriparser/default.nix)
