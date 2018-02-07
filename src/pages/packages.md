@@ -49,12 +49,12 @@ Wherever you go, uriparser is already waiting for you:
     * [Mandriva](https://github.com/OpenMandrivaAssociation/uriparser/blob/master/uriparser.spec)
     * [NixOS](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/libraries/uriparser/default.nix)
     * [OpenEmbedded](http://cgit.openembedded.net/cgit.cgi?url=openembedded/tree/packages/liburiparser)
+    * [openSUSE](https://build.opensuse.org/package/show/devel:libraries:c_c++/liburiparser1)
     * [Parabola](https://www.parabola.nu/packages/community/x86_64/uriparser/)
     * [Pardus Linux](http://packages.pardus.org.tr/contrib/source/uriparser.html)
     * [PLD linux](https://github.com/pld-linux/uriparser/blob/master/uriparser.spec)
     * [SlackBuilds](https://slackbuilds.org/repository/14.2/libraries/uriparser/)
     * [Slackware](http://repository.slacky.eu/slackware-12.0/development/uriparser/)
-    * [SUSE Linux](http://software.opensuse.org/search?q=uriparser)
     * [T2 SDE](http://www.t2-project.org/packages/uriparser.html)
     * [Ubuntu](http://packages.ubuntu.com/source/uriparser)
 * __macOS__
