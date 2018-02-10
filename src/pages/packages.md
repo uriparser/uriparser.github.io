@@ -51,7 +51,7 @@ Wherever you go, uriparser is already waiting for you:
     * [Parabola](https://www.parabola.nu/packages/community/x86_64/uriparser/)
     * [Pardus Linux](http://packages.pardus.org.tr/contrib/source/uriparser.html)
     * [PLD linux](https://github.com/pld-linux/uriparser/blob/master/uriparser.spec)
-    * [ROSA Linux](http://mirror.rosalab.ru/rosa/rosa2016.1/repository/SRPMS/contrib/release/)
+    * [ROSA Linux](https://abf.rosalinux.ru/import/uriparser)
     * [SlackBuilds](https://slackbuilds.org/repository/14.2/libraries/uriparser/)
     * [SlackOnly](https://packages.slackonly.com/pub/packages/current-x86_64/libraries/uriparser/)
     * [Slackware](http://repository.slacky.eu/slackware-12.0/development/uriparser/)
