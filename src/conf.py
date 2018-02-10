@@ -136,9 +136,9 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("https://github.com/uriparser/uriparser/releases", "Download"),
-        ("doc/api/latest/", "API Documentation"),
+        ("/doc/api/latest/", "API Documentation"),
         ("https://github.com/uriparser/uriparser", "Git Repository"),
-        ("doc/users/", "Users"),
+        ("/doc/users/", "Users"),
         ("https://github.com/uriparser/uriparser/issues", "Report a Bug"),
         #("/archive.html", "Archive"),
         #("/archive.html", "Archive"),
