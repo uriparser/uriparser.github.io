@@ -61,7 +61,7 @@ Wherever you go, uriparser is already waiting for you:
 * __macOS__
     * [Gentoo Prefix](http://packages.gentoo.org/package/dev-libs/uriparser)
     * [Homebrew](http://brewformulas.org/uriparser)
-    * [MacPorts](https://trac.macports.org/browser/trunk/dports/devel/uriparser/Portfile)
+    * [MacPorts](https://github.com/macports/macports-ports/blob/master/devel/uriparser/Portfile)
 * __Windows__
     * [cygwinports-extras](https://github.com/cygwinports-extras/uriparser)
     * [NuGet](https://www.nuget.org/packages?q=uriparser)
