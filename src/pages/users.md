@@ -54,7 +54,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
 * __H__
     * [har](https://github.com/otterley/har) — high-availability resolver (see [`har.c`](https://github.com/otterley/har/blob/6f245395b2465afbf7449a2981ee1459a5c4fada/har.c))
     * [Harbour contrib](https://github.com/emazv72/hbcontrib) (see [`harbour-core/contrib/hburiparser/hburiparser.c`](https://github.com/emazv72/hbcontrib/blob/4d78d492619303ccdfbfbb77a92764d9446be3d5/harbour-core/contrib/hburiparser/hburiparser.c))
-    * [HPCC Systems](https://github.com/hpcc-systems/HPCC-Platform) — open source, massive parallel-processing computing platform for big data processing and analytics (see [`common/remote/uri.cpp`](https://github.com/hpcc-systems/HPCC-Platform/blob/master/common/remote/uri.cpp))
+    * [**HPCC Systems**](https://github.com/hpcc-systems/HPCC-Platform) — open source, massive parallel-processing computing platform for big data processing and analytics (see [`common/remote/uri.cpp`](https://github.com/hpcc-systems/HPCC-Platform/blob/master/common/remote/uri.cpp))
     * [hpks](https://github.com/Rost-enTroniX/hpks) — Holzgas-Puffer-Kontroll-System (see [`HPKS/json_worker.c`](https://github.com/Rost-enTroniX/hpks/blob/master/HPKS/json_worker.c))
     * [hsfs2](https://github.com/openunix/hsfs2) — Not only an NFS client via Fuse (see [`hsfs/hsfs_main.c`](https://github.com/openunix/hsfs2/blob/master/hsfs/hsfs_main.c))
 * __I__
@@ -88,7 +88,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
 * __N__
     * [nodeoze](https://github.com/collobos/nodeoze) — node inspired library for modern c++  (see [`src/nuri.cpp`](https://github.com/collobos/nodeoze/blob/master/src/nuri.cpp))
 * __O__
-    * [openFrameworks](https://github.com/openframeworks/openFrameworks) — community-developed cross platform toolkit for creative coding in C++ (see [`libs/openFrameworks/graphics/ofImage.cpp`](https://github.com/openframeworks/openFrameworks/blob/master/libs/openFrameworks/graphics/ofImage.cpp))
+    * [**openFrameworks**](https://github.com/openframeworks/openFrameworks) — community-developed cross platform toolkit for creative coding in C++ (see [`libs/openFrameworks/graphics/ofImage.cpp`](https://github.com/openframeworks/openFrameworks/blob/master/libs/openFrameworks/graphics/ofImage.cpp))
     * [OpenMoko Media Player](http://www.openmoko.org/) — media player for [OM2007.2](http://wiki.openmoko.org/wiki/Om_2007.2) (see [`openmoko-mediaplayer2/src/playlist.c`](https://github.com/shr-project/shr/blob/7f1c1b2fc81ce99815fe7946acf2c8d06502ad73/openmoko-mediaplayer2/src/playlist.c))
     * [Open vStorage VolumeDriver](https://github.com/openvstorage/volumedriver) — core of the Open vStorage solution: a high performance distributed block layer; converts block storage into objects (Storage Container Objects) (see [`src/youtils/Uri.cpp`](https://github.com/openvstorage/volumedriver/blob/dev/src/youtils/Uri.cpp))
     * [Orfeo ToolBox](https://www.orfeo-toolbox.org/) — remote sensing images processing (see [`Utilities/otbkml/src/kml/base/uri_parser.cc`](https://github.com/inglada/OTB/blob/8b6d8a7df9d54c2b13189e00ba8fcb070e78e916/Utilities/otbkml/src/kml/base/uri_parser.cc))
@@ -113,7 +113,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [TheVoid](https://github.com/izenecloud/thevoid) — asynchronious event-driven C++ library (see [`thevoid/swarm/url.cpp`](https://github.com/izenecloud/thevoid/blob/62ea68515c382ce70a715c07eda207a1d5930bab/thevoid/swarm/url.cpp))
     * [tpm2-tss](https://github.com/intel/tpm2-tss) — Trusted Computing Group's (TCG) TPM2 Software Stack (TSS) (see [`tcti/tcti_socket.c`](https://github.com/intel/tpm2-tss/blob/master/tcti/tcti_socket.c))
     * [trecul](https://github.com/akamai-tech/trecul) — C++ dataflow library (see [`ads-df/FileSystem.cc`](https://github.com/akamai-tech/trecul/blob/84e5fb2aeb36db868086209599bfaa20cbd1abc8/ads-df/FileSystem.cc))
-    * [Tvheadend](https://tvheadend.org/) — TV streaming server for Linux (see [`src/url.c`](https://github.com/tvheadend/tvheadend/blob/147841b6504496c609e175364c51f5d55abd3fd7/src/url.c))
+    * [**Tvheadend**](https://tvheadend.org/) — TV streaming server for Linux (see [`src/url.c`](https://github.com/tvheadend/tvheadend/blob/147841b6504496c609e175364c51f5d55abd3fd7/src/url.c))
 * __U__
     * [urbin](https://github.com/verpeteren/urbin) — async'd non-block'd server (see [`src/feature/webclient.h`](https://github.com/verpeteren/urbin/blob/master/src/feature/webclient.h))
     * [uSCXML](https://github.com/tklab-tud/uscxml) —  SCXML interpreter and transformer/compiler written in C/C++ with bindings to Java, C#, Python and Lua (see [`src/uscxml/util/URL.cpp`](https://github.com/tklab-tud/uscxml/blob/master/src/uscxml/util/URL.cpp))
