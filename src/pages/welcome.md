@@ -27,7 +27,7 @@ fast,
 supports Unicode, and
 is licensed under the [New BSD license](https://github.com/uriparser/uriparser/blob/master/COPYING).
 
-There are a number of [applications and libraries using uriparser](doc/users/),
+There are a number of [applications, libraries and hardware using uriparser](doc/users/),
 as well as [bindings and 3rd-party wrappers](doc/bindings/).
 uriparser is [packaged in major distributions](doc/packages/).
 
