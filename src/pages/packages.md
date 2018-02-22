@@ -55,7 +55,7 @@ Wherever you go, uriparser is already waiting for you:
     * [SlackBuilds](https://slackbuilds.org/repository/14.2/libraries/uriparser/)
     * [SlackOnly](https://packages.slackonly.com/pub/packages/current-x86_64/libraries/uriparser/)
     * [Slackware](http://repository.slacky.eu/slackware-12.0/development/uriparser/)
-    * [T2 SDE](http://www.t2-project.org/packages/uriparser.html)
+    * [T2 SDE](http://svn.exactcode.de/t2/trunk/package/www/uriparser/uriparser.desc)
     * [Ubuntu](http://packages.ubuntu.com/source/uriparser)
     * ([Void Linux](https://github.com/voidlinux/void-packages/pull/10815))
 * __macOS__
