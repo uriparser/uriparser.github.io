@@ -72,7 +72,7 @@
             <section title="Variables" ref="functions_vars.html" />
           </section>
         </section>
-        <section title="Files">
+        <section title="Files" ref="files.html">
           <section title="File List" ref="files.html">
             <section title="Uri.h" ref="Uri_8h.html">
               <section title="UriTextRangeStructA" ref="structUriTextRangeStructA.html">
