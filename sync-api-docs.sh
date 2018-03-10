@@ -31,6 +31,7 @@ absversionfile="$(mktemp)"
     ./configure --disable-test
     make -C doc
 )
+./optimize-png-files.sh "${abstempdir}"
 mkdir "$(dirname "${abstargetdir}")"
 mv "${abstempdir}"/uriparser/doc/html "${abstargetdir}"
 rm -Rf "${abstempdir}"

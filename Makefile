@@ -13,6 +13,7 @@ GENERATED = \
 .PHONY: all
 all:
 	$(MAKE) -C src
+	./optimize-png-files.sh assets/css/images/
 
 .PHONY: clean
 clean:
