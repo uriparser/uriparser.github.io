@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QtHelpProject version="1.0">
   <namespace>io.github.uriparser</namespace>
-  <virtualFolder>uriparser-0.8.5</virtualFolder>
+  <virtualFolder>uriparser-0.8.6</virtualFolder>
   <filterSection>
     <filterAttribute>doxygen</filterAttribute>
     <toc>
-      <section title="uriparser 0.8.5" ref="index.html">
+      <section title="uriparser 0.8.6" ref="index.html">
         <section title="Table of Contents" ref="index.html#SEC_TOC" />
         <section title="Introduction" ref="index.html#intro">
           <section title="Parsing URIs (from string to object)" ref="index.html#parsing" />
