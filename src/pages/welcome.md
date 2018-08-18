@@ -12,7 +12,7 @@
 # Latest News
 
 * 2018-02-07 —
-  [uriparser 0.8.**5**](https://github.com/uriparser/uriparser/blob/master/ChangeLog)
+  [uriparser 0.8.**5**](https://github.com/uriparser/uriparser/blob/uriparser-0.8.5/ChangeLog)
   has been released
 
 
