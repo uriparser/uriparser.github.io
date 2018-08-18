@@ -1,3 +1,4 @@
+/__pycache__/
 /.doit.db
 /cache/
 /conf.pyc
