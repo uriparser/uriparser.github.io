@@ -19,6 +19,8 @@ Wherever you go, uriparser is already waiting for you:
 
 * __Cross-platform__
     * [OpenPKG](http://download.openpkg.org/packages/current/source/EVAL/)
+* __AIX__
+    * [AIX Open Source Packages](http://www.oss4aix.org/download/SRPMS/uriparser/)
 * __BSD__
     * [DragonFly BSD](https://github.com/DragonFlyBSD/DPorts/tree/master/net/uriparser)
     * [FreeBSD](http://www.freebsd.org/cgi/cvsweb.cgi/ports/net/uriparser/)
