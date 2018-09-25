@@ -38,7 +38,7 @@ Wherever you go, uriparser is already waiting for you:
     * [CentOS](http://www.andreas-mueller.com/mrepo/centos5-i386/RPMS.at-stable/repoview/uriparser.html)
     * [Debian](http://packages.debian.org/source/uriparser)
     * [Exherbo](http://git.exherbo.org/summer/packages/dev-libs/uriparser/index.html)
-    * [Fedora](https://admin.fedoraproject.org/updates/uriparser)
+    * [Fedora](https://apps.fedoraproject.org/packages/uriparser/overview)
     * [Funtoo](https://github.com/funtoo/dev-kit/tree/master/dev-libs/uriparser)
     * [Gentoo](http://packages.gentoo.org/package/dev-libs/uriparser)
     * [Gobo Linux](https://github.com/gobolinux/Recipes/tree/master/trunk/LibURIParser)
