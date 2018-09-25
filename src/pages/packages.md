@@ -19,6 +19,7 @@ Wherever you go, uriparser is already waiting for you:
 
 * __Cross-platform__
     * [OpenPKG](http://download.openpkg.org/packages/current/source/EVAL/)
+    * [vcpkg](https://github.com/Microsoft/vcpkg/tree/master/ports/uriparser)
 * __AIX__
     * [AIX Open Source Packages](http://www.oss4aix.org/download/SRPMS/uriparser/)
 * __BSD__
@@ -67,7 +68,6 @@ Wherever you go, uriparser is already waiting for you:
 * __Windows__
     * [cygwinports-extras](https://github.com/cygwinports-extras/uriparser)
     * [NuGet](https://www.nuget.org/packages?q=uriparser)
-    * [vcpkg](https://github.com/Microsoft/vcpkg/tree/master/ports/uriparser)
     * [yacp](https://github.com/fd00/yacp/tree/master/uriparser)
 
 
