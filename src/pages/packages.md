@@ -60,7 +60,7 @@ Wherever you go, uriparser is already waiting for you:
     * [Slackware](http://repository.slacky.eu/slackware-12.0/development/uriparser/)
     * [T2 SDE](http://svn.exactcode.de/t2/trunk/package/www/uriparser/uriparser.desc)
     * [Ubuntu](http://packages.ubuntu.com/source/uriparser)
-    * [Void Linux](https://github.com/void-linux/void-packages/tree/master/srcpkgs/uriparser)
+    * [Void Linux](https://github.com/void-linux/void-packages/blob/master/srcpkgs/uriparser/template)
 * __macOS__
     * [Gentoo Prefix](http://packages.gentoo.org/package/dev-libs/uriparser)
     * [Homebrew](http://brewformulas.org/uriparser)
