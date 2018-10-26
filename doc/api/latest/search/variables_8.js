@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['owner',['owner',['../structUriUriStructA.html#afed82ea0451d1ca77da02168448df58a',1,'UriUriStructA']]]
+  ['malloc',['malloc',['../structUriMemoryManagerStruct.html#ab135216abf659af663ab29767d0ca710',1,'UriMemoryManagerStruct']]]
 ];

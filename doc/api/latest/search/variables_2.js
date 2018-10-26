@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['errorcode',['errorCode',['../structUriParserStateStructA.html#ab675a39a0c7f0587be9ae6734db7ac80',1,'UriParserStateStructA']]],
-  ['errorpos',['errorPos',['../structUriParserStateStructA.html#aab55b8297cb48d34191932aff8ecf3ea',1,'UriParserStateStructA']]]
+  ['data',['data',['../structUriIp4Struct.html#a1313fbf2e999ad021f220cbf61ec9688',1,'UriIp4Struct::data()'],['../structUriIp6Struct.html#a512181404219812104863ccac1feead3',1,'UriIp6Struct::data()']]]
 ];

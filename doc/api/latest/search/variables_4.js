@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['hostdata',['hostData',['../structUriUriStructA.html#a2d713adf6bcf52d41ad10b62df4d1353',1,'UriUriStructA']]],
-  ['hosttext',['hostText',['../structUriUriStructA.html#a8785f975abe90491a1d2a7d10e591d74',1,'UriUriStructA']]]
+  ['first',['first',['../structUriTextRangeStructA.html#a6f1e1048b5e74fe6c7a680ff99138f68',1,'UriTextRangeStructA']]],
+  ['fragment',['fragment',['../structUriUriStructA.html#aea2941812309aabad8025e582e9cc5c4',1,'UriUriStructA']]],
+  ['free',['free',['../structUriMemoryManagerStruct.html#a4136addad3036e787852fead862cffdf',1,'UriMemoryManagerStruct']]]
 ];

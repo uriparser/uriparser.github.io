@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['scheme',['scheme',['../structUriUriStructA.html#a1a6af822570e52c9617755a351bb8729',1,'UriUriStructA']]]
+  ['query',['query',['../structUriUriStructA.html#acb555eb399898672c7b069da0f444157',1,'UriUriStructA']]]
 ];

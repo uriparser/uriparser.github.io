@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">uriparser
-   &#160;<span id="projectnumber">0.8.6</span>
+   &#160;<span id="projectnumber">0.9.0</span>
    </div>
   </td>
  </tr>
@@ -69,7 +69,8 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">UriBase.h File Reference</div>  </div>
 </div><!--header-->
@@ -80,6 +81,8 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUriIp4Struct.html">UriIp4Struct</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUriIp6Struct.html">UriIp6Struct</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUriMemoryManagerStruct.html">UriMemoryManagerStruct</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -94,6 +97,20 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:a4032ccb3c188c6e7e599b27ae12e9948"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br />
   <a href="#a4032ccb3c188c6e7e599b27ae12e9948">More...</a><br /></td></tr>
 <tr class="separator:a4032ccb3c188c6e7e599b27ae12e9948"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f9c73815a6172201dec3c5913db8621"><td class="memItemLeft" align="right" valign="top">typedef void *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="UriBase_8h.html#a7f9c73815a6172201dec3c5913db8621">UriFuncMalloc</a>) (struct <a class="el" href="structUriMemoryManagerStruct.html">UriMemoryManagerStruct</a> *, size_t)</td></tr>
+<tr class="separator:a7f9c73815a6172201dec3c5913db8621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3adeb9e64b6325d4af5256a85d72a2f"><td class="memItemLeft" align="right" valign="top">typedef void *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="UriBase_8h.html#af3adeb9e64b6325d4af5256a85d72a2f">UriFuncCalloc</a>) (struct <a class="el" href="structUriMemoryManagerStruct.html">UriMemoryManagerStruct</a> *, size_t, size_t)</td></tr>
+<tr class="separator:af3adeb9e64b6325d4af5256a85d72a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e00cacd8b3bdc2a12cd4b947c8bd771"><td class="memItemLeft" align="right" valign="top">typedef void *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="UriBase_8h.html#a7e00cacd8b3bdc2a12cd4b947c8bd771">UriFuncRealloc</a>) (struct <a class="el" href="structUriMemoryManagerStruct.html">UriMemoryManagerStruct</a> *, void *, size_t)</td></tr>
+<tr class="separator:a7e00cacd8b3bdc2a12cd4b947c8bd771"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4edea6fcfaa601907f1a9d4c7dd4e74e"><td class="memItemLeft" align="right" valign="top">typedef void *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="UriBase_8h.html#a4edea6fcfaa601907f1a9d4c7dd4e74e">UriFuncReallocarray</a>) (struct <a class="el" href="structUriMemoryManagerStruct.html">UriMemoryManagerStruct</a> *, void *, size_t, size_t)</td></tr>
+<tr class="separator:a4edea6fcfaa601907f1a9d4c7dd4e74e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9339dfd72f2d3791a54bfa5821c3dcff"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="UriBase_8h.html#a9339dfd72f2d3791a54bfa5821c3dcff">UriFuncFree</a>) (struct <a class="el" href="structUriMemoryManagerStruct.html">UriMemoryManagerStruct</a> *, void *)</td></tr>
+<tr class="separator:a9339dfd72f2d3791a54bfa5821c3dcff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a3bb8c85d1b16671ef5237d06c02043"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structUriMemoryManagerStruct.html">UriMemoryManagerStruct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043">UriMemoryManager</a></td></tr>
+<tr class="memdesc:a3a3bb8c85d1b16671ef5237d06c02043"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br />
+  <a href="#a3a3bb8c85d1b16671ef5237d06c02043">More...</a><br /></td></tr>
+<tr class="separator:a3a3bb8c85d1b16671ef5237d06c02043"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a223a6e1bb23228775573726aa73d018e"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="UriBase_8h.html#a411334aa7c810d330d05a50504a7cfcc">UriBreakConversionEnum</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="UriBase_8h.html#a223a6e1bb23228775573726aa73d018e">UriBreakConversion</a></td></tr>
 <tr class="memdesc:a223a6e1bb23228775573726aa73d018e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br />
   <a href="#a223a6e1bb23228775573726aa73d018e">More...</a><br /></td></tr>
@@ -137,6 +154,17 @@ Enumerations</h2></td></tr>
 <a class="el" href="UriBase_8h.html#a1cdbeee44519b34292fab4b7d9213df1afc17d64c3fb7a315616512cd96b23f06">URI_RESOLVE_IDENTICAL_SCHEME_COMPAT</a> = 1 &lt;&lt; 0
  }</td></tr>
 <tr class="separator:a1cdbeee44519b34292fab4b7d9213df1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ae7811d209ed03e3a7e6e9a021a3a5fb4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="UriBase_8h.html#ae7811d209ed03e3a7e6e9a021a3a5fb4">uriCompleteMemoryManager</a> (<a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043">UriMemoryManager</a> *memory, <a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043">UriMemoryManager</a> *backend)</td></tr>
+<tr class="separator:ae7811d209ed03e3a7e6e9a021a3a5fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f40e509f655e0a97fcad032e98ade8"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="UriBase_8h.html#a40f40e509f655e0a97fcad032e98ade8">uriEmulateCalloc</a> (<a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043">UriMemoryManager</a> *memory, size_t nmemb, size_t size)</td></tr>
+<tr class="separator:a40f40e509f655e0a97fcad032e98ade8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9afdc3df484ad4acd4b291f21bf8296b"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="UriBase_8h.html#a9afdc3df484ad4acd4b291f21bf8296b">uriEmulateReallocarray</a> (<a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043">UriMemoryManager</a> *memory, void *ptr, size_t nmemb, size_t size)</td></tr>
+<tr class="separator:a9afdc3df484ad4acd4b291f21bf8296b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6bed1fb193bfe991cfb384bed299489"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="UriBase_8h.html#ac6bed1fb193bfe991cfb384bed299489">uriTestMemoryManager</a> (<a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043">UriMemoryManager</a> *memory)</td></tr>
+<tr class="separator:ac6bed1fb193bfe991cfb384bed299489"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Holds definitions independent of the encoding pass. </p>
@@ -174,6 +202,86 @@ Enumerations</h2></td></tr>
 
 </div>
 </div>
+<a id="af3adeb9e64b6325d4af5256a85d72a2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3adeb9e64b6325d4af5256a85d72a2f">&#9670;&nbsp;</a></span>UriFuncCalloc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void*(* UriFuncCalloc) (struct <a class="el" href="structUriMemoryManagerStruct.html">UriMemoryManagerStruct</a> *, size_t, size_t)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Function signature that custom calloc(3) functions must conform to</p>
+<dl class="section since"><dt>Since</dt><dd>0.9.0 </dd></dl>
+
+</div>
+</div>
+<a id="a9339dfd72f2d3791a54bfa5821c3dcff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9339dfd72f2d3791a54bfa5821c3dcff">&#9670;&nbsp;</a></span>UriFuncFree</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* UriFuncFree) (struct <a class="el" href="structUriMemoryManagerStruct.html">UriMemoryManagerStruct</a> *, void *)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Function signature that custom free(3) functions must conform to</p>
+<dl class="section since"><dt>Since</dt><dd>0.9.0 </dd></dl>
+
+</div>
+</div>
+<a id="a7f9c73815a6172201dec3c5913db8621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f9c73815a6172201dec3c5913db8621">&#9670;&nbsp;</a></span>UriFuncMalloc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void*(* UriFuncMalloc) (struct <a class="el" href="structUriMemoryManagerStruct.html">UriMemoryManagerStruct</a> *, size_t)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Function signature that custom malloc(3) functions must conform to</p>
+<dl class="section since"><dt>Since</dt><dd>0.9.0 </dd></dl>
+
+</div>
+</div>
+<a id="a7e00cacd8b3bdc2a12cd4b947c8bd771"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e00cacd8b3bdc2a12cd4b947c8bd771">&#9670;&nbsp;</a></span>UriFuncRealloc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void*(* UriFuncRealloc) (struct <a class="el" href="structUriMemoryManagerStruct.html">UriMemoryManagerStruct</a> *, void *, size_t)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Function signature that custom realloc(3) functions must conform to</p>
+<dl class="section since"><dt>Since</dt><dd>0.9.0 </dd></dl>
+
+</div>
+</div>
+<a id="a4edea6fcfaa601907f1a9d4c7dd4e74e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4edea6fcfaa601907f1a9d4c7dd4e74e">&#9670;&nbsp;</a></span>UriFuncReallocarray</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void*(* UriFuncReallocarray) (struct <a class="el" href="structUriMemoryManagerStruct.html">UriMemoryManagerStruct</a> *, void *, size_t, size_t)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Function signature that custom reallocarray(3) functions must conform to</p>
+<dl class="section since"><dt>Since</dt><dd>0.9.0 </dd></dl>
+
+</div>
+</div>
 <a id="a9ee039f3ff27ed6e238f15d67d857c81"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9ee039f3ff27ed6e238f15d67d857c81">&#9670;&nbsp;</a></span>UriIp4</h2>
 
@@ -207,6 +315,40 @@ Enumerations</h2></td></tr>
 <p><br />
  </p>
 <p>Holds an IPv6 address.Holds an IPv6 address. </p>
+
+</div>
+</div>
+<a id="a3a3bb8c85d1b16671ef5237d06c02043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a3bb8c85d1b16671ef5237d06c02043">&#9670;&nbsp;</a></span>UriMemoryManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structUriMemoryManagerStruct.html">UriMemoryManagerStruct</a>  <a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043">UriMemoryManager</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><br />
+ </p>
+<p>Class-like interface of custom memory managers</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="UriBase_8h.html#ae7811d209ed03e3a7e6e9a021a3a5fb4">uriCompleteMemoryManager</a> </dd>
+<dd>
+<a class="el" href="UriBase_8h.html#a40f40e509f655e0a97fcad032e98ade8">uriEmulateCalloc</a> </dd>
+<dd>
+<a class="el" href="UriBase_8h.html#a9afdc3df484ad4acd4b291f21bf8296b">uriEmulateReallocarray</a> </dd>
+<dd>
+<a class="el" href="UriBase_8h.html#ac6bed1fb193bfe991cfb384bed299489">uriTestMemoryManager</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.9.0Class-like interface of custom memory managers</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="UriBase_8h.html#ae7811d209ed03e3a7e6e9a021a3a5fb4">uriCompleteMemoryManager</a> </dd>
+<dd>
+<a class="el" href="UriBase_8h.html#a40f40e509f655e0a97fcad032e98ade8">uriEmulateCalloc</a> </dd>
+<dd>
+<a class="el" href="UriBase_8h.html#a9afdc3df484ad4acd4b291f21bf8296b">uriEmulateReallocarray</a> </dd>
+<dd>
+<a class="el" href="UriBase_8h.html#ac6bed1fb193bfe991cfb384bed299489">uriTestMemoryManager</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.9.0 </dd></dl>
 
 </div>
 </div>
@@ -333,6 +475,199 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a1cdbeee44519b34292fab4b7d9213df1afc17d64c3fb7a315616512cd96b23f06"></a>URI_RESOLVE_IDENTICAL_SCHEME_COMPAT&#160;</td><td class="fielddoc"><p>Treat URI to resolve with identical scheme as having no scheme </p>
 </td></tr>
 </table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ae7811d209ed03e3a7e6e9a021a3a5fb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7811d209ed03e3a7e6e9a021a3a5fb4">&#9670;&nbsp;</a></span>uriCompleteMemoryManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int uriCompleteMemoryManager </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043">UriMemoryManager</a> *&#160;</td>
+          <td class="paramname"><em>memory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043">UriMemoryManager</a> *&#160;</td>
+          <td class="paramname"><em>backend</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Wraps a memory manager backend that only provides malloc and free to make a complete memory manager ready to be used.</p>
+<p>The core feature of this wrapper is that you don't need to implement realloc if you don't want to. The wrapped memory manager uses backend-&gt;malloc, memcpy, and backend-&gt;free and soieof(size_t) extra bytes per allocation to emulate fallback realloc for you.</p>
+<p>memory-&gt;calloc is uriEmulateCalloc. memory-&gt;free uses backend-&gt;free and handles the size header. memory-&gt;malloc uses backend-&gt;malloc and adds a size header. memory-&gt;realloc uses memory-&gt;malloc, memcpy, and memory-&gt;free and reads the size header. memory-&gt;reallocarray is uriEmulateReallocarray.</p>
+<p>The internal workings behind memory-&gt;free, memory-&gt;malloc, and memory-&gt;realloc may change so the functions exposed by these function pointer sshould be consided internal and not public API.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">memory</td><td><b>OUT</b>: Where to write the wrapped memory manager to </td></tr>
+    <tr><td class="paramname">backend</td><td><b>IN</b>: Memory manager to use as a backend </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Error code or 0 on success</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="UriBase_8h.html#a40f40e509f655e0a97fcad032e98ade8">uriEmulateCalloc</a> </dd>
+<dd>
+<a class="el" href="UriBase_8h.html#a9afdc3df484ad4acd4b291f21bf8296b">uriEmulateReallocarray</a> </dd>
+<dd>
+<a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043" title="  ">UriMemoryManager</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.9.0 </dd></dl>
+
+</div>
+</div>
+<a id="a40f40e509f655e0a97fcad032e98ade8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40f40e509f655e0a97fcad032e98ade8">&#9670;&nbsp;</a></span>uriEmulateCalloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* uriEmulateCalloc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043">UriMemoryManager</a> *&#160;</td>
+          <td class="paramname"><em>memory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>nmemb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offers emulation of calloc(3) based on memory-&gt;malloc and memset. See "man 3 calloc" as well.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">memory</td><td><b>IN</b>: Memory manager to use, should not be NULL </td></tr>
+    <tr><td class="paramname">nmemb</td><td><b>IN</b>: Number of elements to allocate </td></tr>
+    <tr><td class="paramname">size</td><td><b>IN</b>: Size in bytes per element </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to allocated memory or NULL</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="UriBase_8h.html#ae7811d209ed03e3a7e6e9a021a3a5fb4">uriCompleteMemoryManager</a> </dd>
+<dd>
+<a class="el" href="UriBase_8h.html#a9afdc3df484ad4acd4b291f21bf8296b">uriEmulateReallocarray</a> </dd>
+<dd>
+<a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043" title="  ">UriMemoryManager</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.9.0 </dd></dl>
+
+</div>
+</div>
+<a id="a9afdc3df484ad4acd4b291f21bf8296b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9afdc3df484ad4acd4b291f21bf8296b">&#9670;&nbsp;</a></span>uriEmulateReallocarray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* uriEmulateReallocarray </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043">UriMemoryManager</a> *&#160;</td>
+          <td class="paramname"><em>memory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>nmemb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offers emulation of reallocarray(3) based on memory-&gt;realloc. See "man 3 reallocarray" as well.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">memory</td><td><b>IN</b>: Memory manager to use, should not be NULL </td></tr>
+    <tr><td class="paramname">ptr</td><td><b>IN</b>: Pointer allocated using memory-&gt;malloc/... or NULL </td></tr>
+    <tr><td class="paramname">nmemb</td><td><b>IN</b>: Number of elements to allocate </td></tr>
+    <tr><td class="paramname">size</td><td><b>IN</b>: Size in bytes per element </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to allocated memory or NULL</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="UriBase_8h.html#ae7811d209ed03e3a7e6e9a021a3a5fb4">uriCompleteMemoryManager</a> </dd>
+<dd>
+<a class="el" href="UriBase_8h.html#a40f40e509f655e0a97fcad032e98ade8">uriEmulateCalloc</a> </dd>
+<dd>
+<a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043" title="  ">UriMemoryManager</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.9.0 </dd></dl>
+
+</div>
+</div>
+<a id="ac6bed1fb193bfe991cfb384bed299489"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6bed1fb193bfe991cfb384bed299489">&#9670;&nbsp;</a></span>uriTestMemoryManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int uriTestMemoryManager </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043">UriMemoryManager</a> *&#160;</td>
+          <td class="paramname"><em>memory</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Run multiple tests against a given memory manager. For example, one test</p><ol type="1">
+<li>allocates a small amount of memory,</li>
+<li>writes some magic bytes to it,</li>
+<li>reallocates it,</li>
+<li>checks that previous values are still present,</li>
+<li>and frees that memory.</li>
+</ol>
+<p>It is recommended to compile with AddressSanitizer enabled to take full advantage of uriTestMemoryManager.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">memory</td><td><b>IN</b>: Memory manager to use, should not be NULL </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Error code or 0 on success</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="UriBase_8h.html#a40f40e509f655e0a97fcad032e98ade8">uriEmulateCalloc</a> </dd>
+<dd>
+<a class="el" href="UriBase_8h.html#a9afdc3df484ad4acd4b291f21bf8296b">uriEmulateReallocarray</a> </dd>
+<dd>
+<a class="el" href="UriBase_8h.html#a3a3bb8c85d1b16671ef5237d06c02043" title="  ">UriMemoryManager</a> </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.9.0 </dd></dl>
 
 </div>
 </div>

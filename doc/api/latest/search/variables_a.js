@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['query',['query',['../structUriUriStructA.html#acb555eb399898672c7b069da0f444157',1,'UriUriStructA']]]
+  ['owner',['owner',['../structUriUriStructA.html#afed82ea0451d1ca77da02168448df58a',1,'UriUriStructA']]]
 ];

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">uriparser
-   &#160;<span id="projectnumber">0.8.6</span>
+   &#160;<span id="projectnumber">0.9.0</span>
    </div>
   </td>
  </tr>
@@ -89,9 +89,8 @@ Introduction</h1>
 <h2><a class="anchor" id="parsing"></a>
 Parsing URIs (from string to object)</h2>
 <p>Parsing a URI with uriparser looks like this:</p>
-<div class="fragment"><div class="line"><a class="code" href="structUriParserStateStructA.html">UriParserStateA</a> state;</div><div class="line"><a class="code" href="structUriUriStructA.html">UriUriA</a> uri;</div><div class="line"></div><div class="line">state.<a class="code" href="structUriParserStateStructA.html#a9a0cd66f9e53ac5d0ac2b2b8b1dd01d4">uri</a> = &amp;uri;</div><div class="line"><span class="keywordflow">if</span> (<a class="code" href="Uri_8h.html#ab16a86cc9956c40da5a97007c0fd4802">uriParseUriA</a>(&amp;state, <span class="stringliteral">&quot;file:///home/user/song.mp3&quot;</span>) != URI_SUCCESS) {</div><div class="line">    <span class="comment">/* Failure */</span></div><div class="line">    <a class="code" href="Uri_8h.html#aa5f2edbe34fcde379ccca4fe3fadcd48">uriFreeUriMembersA</a>(&amp;uri);</div><div class="line">    ...</div><div class="line">}</div><div class="line">...</div><div class="line">uriFreeUriMembersA(&amp;uri);</div></div><!-- fragment --><p>While the URI object (<a class="el" href="Uri_8h.html#a924841de923bfc02670dfee96cd25e62" title="  ">UriUriA</a>) holds information about the recognized parts of the given URI string, the parser state object (<a class="el" href="Uri_8h.html#aeca8bf10221333215c74cfba8cb9f07e" title="  ">UriParserStateA</a>) keeps error code and position. This information does not belong to the URI itself, which is why there are two separate objects.</p>
-<p>You can reuse parser state objects for parsing several URIs like this:</p>
-<div class="fragment"><div class="line"><a class="code" href="structUriParserStateStructA.html">UriParserStateA</a> state;</div><div class="line"><a class="code" href="structUriUriStructA.html">UriUriA</a> uriOne;</div><div class="line"><a class="code" href="structUriUriStructA.html">UriUriA</a> uriTwo;</div><div class="line"></div><div class="line">state.<a class="code" href="structUriParserStateStructA.html#a9a0cd66f9e53ac5d0ac2b2b8b1dd01d4">uri</a> = &amp;uriOne;</div><div class="line"><span class="keywordflow">if</span> (<a class="code" href="Uri_8h.html#ab16a86cc9956c40da5a97007c0fd4802">uriParseUriA</a>(&amp;state, <span class="stringliteral">&quot;file:///home/user/one&quot;</span>) != URI_SUCCESS) {</div><div class="line">    <span class="comment">/* Failure */</span></div><div class="line">    <a class="code" href="Uri_8h.html#aa5f2edbe34fcde379ccca4fe3fadcd48">uriFreeUriMembersA</a>(&amp;uriOne);</div><div class="line">    ...</div><div class="line">}</div><div class="line">...</div><div class="line">state.uri = &amp;uriTwo;</div><div class="line"><span class="keywordflow">if</span> (<a class="code" href="Uri_8h.html#ab16a86cc9956c40da5a97007c0fd4802">uriParseUriA</a>(&amp;state, <span class="stringliteral">&quot;file:///home/user/two&quot;</span>) != URI_SUCCESS) {</div><div class="line">    <span class="comment">/* Failure */</span></div><div class="line">    <a class="code" href="Uri_8h.html#aa5f2edbe34fcde379ccca4fe3fadcd48">uriFreeUriMembersA</a>(&amp;uriOne);</div><div class="line">    <a class="code" href="Uri_8h.html#aa5f2edbe34fcde379ccca4fe3fadcd48">uriFreeUriMembersA</a>(&amp;uriTwo);</div><div class="line">    ...</div><div class="line">}</div><div class="line">...</div><div class="line">uriFreeUriMembersA(&amp;uriOne);</div><div class="line"><a class="code" href="Uri_8h.html#aa5f2edbe34fcde379ccca4fe3fadcd48">uriFreeUriMembersA</a>(&amp;uriTwo);</div></div><!-- fragment --><h2><a class="anchor" id="recomposition"></a>
+<div class="fragment"><div class="line"><a class="code" href="structUriUriStructA.html">UriUriA</a> uri;</div><div class="line"><span class="keyword">const</span> <span class="keywordtype">char</span> * <span class="keyword">const</span> uriString = <span class="stringliteral">&quot;file:///home/user/song.mp3&quot;</span>;</div><div class="line"><span class="keyword">const</span> <span class="keywordtype">char</span> * errorPos;</div><div class="line"></div><div class="line"><span class="keywordflow">if</span> (<a class="code" href="Uri_8h.html#a616c892b6bb7ad2dba27b9314bcd90c0">uriParseSingleUriA</a>(&amp;uri, uriString, &amp;errorPos) != URI_SUCCESS) {</div><div class="line">    <span class="comment">/* Failure (no need to call uriFreeUriMembersA) */</span></div><div class="line">    ...</div><div class="line">    <span class="keywordflow">return</span> ...;</div><div class="line">}</div><div class="line"></div><div class="line"><span class="comment">/* Success */</span></div><div class="line">...</div><div class="line">uriFreeUriMembersA(&amp;uri);</div></div><!-- fragment --><p>While the URI object (<a class="el" href="Uri_8h.html#a924841de923bfc02670dfee96cd25e62" title="  ">UriUriA</a>) holds information about the recognized parts of the given URI string, in case of <code>URI_ERROR_SYNTAX</code>, <code>errorPos</code> points to the first character starting invalid syntax.</p>
+<h2><a class="anchor" id="recomposition"></a>
 Recomposing URIs (from object back to string)</h2>
 <p>According to <a href="http://tools.ietf.org/html/rfc3986#section-5.3" target="_blank">RFC 3986</a> gluing parts of a URI together to form a string is called recomposition. Before we can recompose a URI object we have to know how much space the resulting string will take:</p>
 <div class="fragment"><div class="line"><a class="code" href="structUriUriStructA.html">UriUriA</a> uri;</div><div class="line"><span class="keywordtype">char</span> * uriString;</div><div class="line"><span class="keywordtype">int</span> charsRequired;</div><div class="line">...</div><div class="line">if (<a class="code" href="Uri_8h.html#ae57c60e8166c44163af6d0434329fe73">uriToStringCharsRequiredA</a>(&amp;uri, &amp;charsRequired) != URI_SUCCESS) {</div><div class="line">    <span class="comment">/* Failure */</span></div><div class="line">    ...</div><div class="line">}</div><div class="line">charsRequired++;</div></div><!-- fragment --><p>Now we can tell <a class="el" href="Uri_8h.html#a4a9539cfdd85866a1ef6916c631f8bc2">uriToStringA()</a> to write the string to a given buffer:</p>
@@ -149,25 +148,25 @@ Working with query strings</h1>
 <div class="fragment"><div class="line"><span class="keywordtype">int</span> charsRequired;</div><div class="line"><span class="keywordtype">int</span> charsWritten;</div><div class="line"><span class="keywordtype">char</span> * queryString;</div><div class="line">...</div><div class="line">if (<a class="code" href="Uri_8h.html#a7fd4395b984b9d9519ee2d2aba186613">uriComposeQueryCharsRequiredA</a>(queryList, &amp;charsRequired) != URI_SUCCESS) {</div><div class="line">    <span class="comment">/* Failure */</span></div><div class="line">    ...</div><div class="line">}</div><div class="line">queryString = malloc((charsRequired + 1) * <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>));</div><div class="line"><span class="keywordflow">if</span> (queryString == NULL) {</div><div class="line">    <span class="comment">/* Failure */</span></div><div class="line">    ...</div><div class="line">}</div><div class="line"><span class="keywordflow">if</span> (<a class="code" href="Uri_8h.html#a5d79be075b94fd3292844feb107e0b75">uriComposeQueryA</a>(queryString, queryList, charsRequired + 1, &amp;charsWritten) != URI_SUCCESS) {</div><div class="line">    <span class="comment">/* Failure */</span></div><div class="line">    ...</div><div class="line">}</div><div class="line">...</div><div class="line">free(queryString);</div></div><!-- fragment --><h1><a class="anchor" id="chartypes"></a>
 Ansi and Unicode</h1>
 <p>uriparser comes with two versions of every structure and function: one handling Ansi text (char *) and one working with Unicode text (wchar_t *), for instance</p><ul>
-<li><a class="el" href="Uri_8h.html#ab16a86cc9956c40da5a97007c0fd4802">uriParseUriA()</a> for Ansi and</li>
-<li>uriParseUriW() for Unicode.</li>
+<li><a class="el" href="Uri_8h.html#a616c892b6bb7ad2dba27b9314bcd90c0">uriParseSingleUriA()</a> for Ansi and</li>
+<li>uriParseSingleUriW() for Unicode.</li>
 </ul>
 <p>This tutorial only shows the usage of the Ansi editions but their Unicode counterparts work in the very same way.</p>
 <h1><a class="anchor" id="autoconf"></a>
 Autoconf Check</h1>
 <p>You can use the code below to make <code>./configure</code> test for presence of uriparser 0.6.4 or later.</p>
-<div class="fragment"><pre class="fragment">URIPARSER_MISSING=<span class="stringliteral">"Please install uriparser 0.6.4 or later.
+<div class="fragment"><pre class="fragment">URIPARSER_MISSING=<span class="stringliteral">"Please install uriparser 0.9.0 or later.
    On a Debian-based system enter 'sudo apt-get install liburiparser-dev'."</span>
-AC_CHECK_LIB(uriparser, uriParseUriA,, AC_MSG_ERROR(${URIPARSER_MISSING}))
+AC_CHECK_LIB(uriparser, uriParseSingleUriA,, AC_MSG_ERROR(${URIPARSER_MISSING}))
 AC_CHECK_HEADER(<a class="el" href="Uri_8h.html">uriparser/Uri.h</a>,, AC_MSG_ERROR(${URIPARSER_MISSING}))
 <b></b>
-URIPARSER_TOO_OLD=<span class="stringliteral">"uriparser 0.6.4 or later is required, your copy is too old."</span>
+URIPARSER_TOO_OLD=<span class="stringliteral">"uriparser 0.9.0 or later is required, your copy is too old."</span>
 AC_COMPILE_IFELSE([
 <span class="preprocessor">#include &lt;<a class="el" href="Uri_8h.html">uriparser/Uri.h</a>&gt;
 #if (defined(URI_VER_MAJOR) &amp;&amp; defined(URI_VER_MINOR) &amp;&amp; defined(URI_VER_RELEASE) \<b></b>
 &amp;&amp; ((URI_VER_MAJOR &gt; 0) \<b></b>
-|| ((URI_VER_MAJOR == 0) &amp;&amp; (URI_VER_MINOR &gt; 6)) \<b></b>
-|| ((URI_VER_MAJOR == 0) &amp;&amp; (URI_VER_MINOR == 6) &amp;&amp; (URI_VER_RELEASE &gt;= 4)) \<b></b>
+|| ((URI_VER_MAJOR == 0) &amp;&amp; (URI_VER_MINOR &gt; 9)) \<b></b>
+|| ((URI_VER_MAJOR == 0) &amp;&amp; (URI_VER_MINOR == 9) &amp;&amp; (URI_VER_RELEASE &gt;= 0)) \<b></b>
 ))</span>
 <span class="comment"><b></b>/<b></b>* FINE *<b></b>/</span>
 <span class="preprocessor">#else

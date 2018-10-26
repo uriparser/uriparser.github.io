@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['reserved',['reserved',['../structUriPathSegmentStructA.html#a4544f2a75ed89c0744fd045d631cf3d9',1,'UriPathSegmentStructA::reserved()'],['../structUriUriStructA.html#a4544f2a75ed89c0744fd045d631cf3d9',1,'UriUriStructA::reserved()'],['../structUriParserStateStructA.html#a4544f2a75ed89c0744fd045d631cf3d9',1,'UriParserStateStructA::reserved()']]]
+  ['pathhead',['pathHead',['../structUriUriStructA.html#a818fe29f52f4b50264df4e259b85ed54',1,'UriUriStructA']]],
+  ['pathtail',['pathTail',['../structUriUriStructA.html#a7ffeb05ecfcebe37387835679556a64d',1,'UriUriStructA']]],
+  ['porttext',['portText',['../structUriUriStructA.html#adb6e1372050754b12e3a47602c84231f',1,'UriUriStructA']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['first',['first',['../structUriTextRangeStructA.html#a6f1e1048b5e74fe6c7a680ff99138f68',1,'UriTextRangeStructA']]],
-  ['fragment',['fragment',['../structUriUriStructA.html#aea2941812309aabad8025e582e9cc5c4',1,'UriUriStructA']]]
+  ['errorcode',['errorCode',['../structUriParserStateStructA.html#ab675a39a0c7f0587be9ae6734db7ac80',1,'UriParserStateStructA']]],
+  ['errorpos',['errorPos',['../structUriParserStateStructA.html#aab55b8297cb48d34191932aff8ecf3ea',1,'UriParserStateStructA']]]
 ];
