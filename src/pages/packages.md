@@ -50,7 +50,7 @@ Wherever you go, uriparser is already waiting for you:
     * [NixOS](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/libraries/uriparser/default.nix)
     * [OpenEmbedded](http://cgit.openembedded.net/cgit.cgi?url=openembedded/tree/packages/liburiparser)
     * [OpenMandriva](https://github.com/OpenMandrivaAssociation/uriparser/blob/master/uriparser.spec)
-    * [openSUSE](https://build.opensuse.org/package/show/devel:libraries:c_c++/liburiparser1)
+    * [openSUSE](https://build.opensuse.org/package/show/devel:libraries:c_c++/uriparser)
     * [Parabola](https://www.parabola.nu/packages/community/x86_64/uriparser/)
     * [Pardus Linux](http://packages.pardus.org.tr/contrib/source/uriparser.html)
     * [PLD linux](https://github.com/pld-linux/uriparser/blob/master/uriparser.spec)
