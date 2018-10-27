@@ -13,7 +13,7 @@
 
 * 2018-10-27 —
   [uriparser 0.**9**.**0**](https://github.com/uriparser/uriparser/blob/uriparser-0.9.0/ChangeLog)
-  has been released
+  has been released, includes **security fixes**
 * 2018-08-18 —
   [uriparser 0.8.**6**](https://github.com/uriparser/uriparser/blob/uriparser-0.8.6/ChangeLog)
   has been released
