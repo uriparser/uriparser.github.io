@@ -38,6 +38,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [Coconut](https://gitlab.com/cucurbita/coconut) — Object Runtime C++ CPP (see [`source/runtime/builtins/nutrt-uri_*.hxx`](https://gitlab.com/cucurbita/coconut/tree/master/source/runtime/builtins))
     * [collada-dom](https://github.com/rdiankov/collada-dom) — COLLADA Document Object Model (DOM) C++ Library (see [`dom/src/dae/daeURI.cpp`](https://github.com/rdiankov/collada-dom/blob/master/dom/src/dae/daeURI.cpp))
     * [Crawler](https://github.com/Stazer/Crawler) — C++ Web Crawling Framework (see [`Source/Crawler/Link.cpp`](https://github.com/Stazer/Crawler/blob/master/Source/Crawler/Link.cpp))
+    * [crawlserv++](https://github.com/crawlserv/crawlservpp) — application for crawling websites and analyzing textual content (see [`crawlserv/src/URIParser.cpp`](https://github.com/crawlserv/crawlservpp/blob/c74e6658e4487d7b9f12e2b1f86e030784f3c73a/crawlserv/src/URIParser.cpp))
 * __D__
     * [DCAF](https://github.com/toha/DCAF) — implementation of the DCAF (draft-gerdes-ace-dcaf-authorize-04) protocol (see [`mediatek/external/uriparser/uriparser_external/UriGlue.c`](https://github.com/Danile71/android_kernel_zte_run4g_mod/blob/master/mediatek/external/uriparser/uriparser_external/UriGlue.c))
 * __E__
