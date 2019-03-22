@@ -27,6 +27,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
 
 * __A__
     * [aff4](https://github.com/google/aff4) — The Advanced Forensic File Format (see [`src/rdf.cc`](https://github.com/google/aff4/blob/ce976f6a708a0b79b9b767748d80a01ff68069d0/src/rdf.cc))
+    * [Apache Arrow](https://arrow.apache.org/) — Cross-language development platform for in-memory data (see [`cpp/src/arrow/util/uri.cc`](https://github.com/apache/arrow/blob/ca2351363ba1724de17eda3dd8ef334d7231f4f8/cpp/src/arrow/util/uri.cc))
     * [**Asterisk**](http://www.asterisk.org/) — framework for building communications applications (see [` main/uri.c`](http://svn.asterisk.org/svn/asterisk/trunk/main/uri.c))
     * [aws_sigv4](https://github.com/penmanglewood/aws_sigv4) — Small C library for generating Amazon Web Services signature version 4 (see [`src/uri.c`](https://github.com/penmanglewood/aws_sigv4/blob/6162061266c69c339d929b603a2c964ca9e3292f/src/uri.c))
 * __B__
