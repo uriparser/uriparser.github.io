@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://uriparser.github.io/</loc>
-  <lastmod>2018-11-17T15:42:00Z</lastmod>
+  <lastmod>2019-03-22T18:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://uriparser.github.io/doc/api/latest/</loc>
@@ -319,6 +319,6 @@
  </url>
  <url>
   <loc>https://uriparser.github.io/doc/users/</loc>
-  <lastmod>2018-11-17T15:42:00Z</lastmod>
+  <lastmod>2019-03-22T18:02:00Z</lastmod>
  </url>
 </urlset>
