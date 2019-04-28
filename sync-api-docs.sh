@@ -27,9 +27,13 @@ absversionfile="$(mktemp)"
     git clone https://github.com/uriparser/uriparser.git
     cd uriparser
     git describe --tags | sed 's,^uriparser-,,' > "${absversionfile}"
-    ./autogen.sh
-    ./configure --disable-test
-    make -C doc
+    cmake_args=(
+        -DURIPARSER_BUILD_DOCS=ON
+        -DURIPARSER_BUILD_TESTS=OFF
+        -DURIPARSER_BUILD_TOOLS=OFF
+    )
+    cmake "${cmake_args[@]}" .
+    make doc
 )
 ./optimize-png-files.sh "${abstempdir}"
 mkdir "$(dirname "${abstargetdir}")"
