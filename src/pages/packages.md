@@ -67,6 +67,7 @@ Wherever you go, uriparser is already waiting for you:
     * [MacPorts](https://github.com/macports/macports-ports/blob/master/devel/uriparser/Portfile)
 * __Windows__
     * [cygwinports-extras](https://github.com/cygwinports-extras/uriparser)
+    * [MSYS2](https://github.com/msys2/MINGW-packages/blob/master/mingw-w64-uriparser/PKGBUILD)
     * [NuGet](https://www.nuget.org/packages?q=uriparser)
     * [yacp](https://github.com/fd00/yacp/tree/master/uriparser)
 
