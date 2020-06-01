@@ -18,6 +18,7 @@ Thank you!
 Wherever you go, uriparser is already waiting for you:
 
 * __Cross-platform__
+    * [Conan](https://github.com/conan-io/conan-center-index/tree/master/recipes/uriparser)
     * [OpenPKG](http://download.openpkg.org/packages/current/source/EVAL/)
     * [vcpkg](https://github.com/Microsoft/vcpkg/tree/master/ports/uriparser)
 * __AIX__
