@@ -8,7 +8,7 @@
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
-<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
 <link rel="canonical" href="https://uriparser.github.io/doc/packages/">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Sebastian Pipping">
 <meta property="og:site_name" content="uriparser">
@@ -37,10 +37,11 @@ AI">
 <!-- Menubar -->
 
 <nav class="navbar navbar-expand-md static-top mb-4
-navbar-dark bg-dark
+navbar-dark
+bg-dark
 "><div class="container">
 <!-- This keeps the margins nice -->
-        <a class="navbar-brand" href="https://uriparser.github.io/">
+        <a class="navbar-brand" href="../../">
 
             <span id="blog-title">uriparser</span>
         </a>
@@ -120,7 +121,7 @@ Thank you!</p>
 </li>
 <li>
 <strong>Linux</strong><ul>
-<li><a href="https://git.alpinelinux.org/cgit/aports/tree/main/uriparser">Alpine Linux</a></li>
+<li><a href="https://pkgs.alpinelinux.org/packages?name=*uriparser*&amp;branch=edge">Alpine Linux</a></li>
 <li><a href="http://sisyphus.ru/srpm/liburiparser">ALT Linux</a></li>
 <li><a href="https://packages.aosc.io/packages/uriparser">AOSC</a></li>
 <li><a href="https://www.archlinux.org/packages/?sort=&amp;q=uriparser&amp;maintainer=&amp;flagged=">Arch Linux</a></li>
@@ -132,7 +133,6 @@ Thank you!</p>
 <li><a href="https://github.com/funtoo/dev-kit/tree/master/dev-libs/uriparser">Funtoo</a></li>
 <li><a href="http://packages.gentoo.org/package/dev-libs/uriparser">Gentoo</a></li>
 <li><a href="https://github.com/gobolinux/Recipes/tree/master/LibURIParser">Gobo Linux</a></li>
-<li><a href="https://www.hyperbola.info/packages/community/x86_64/uriparser/">Hyperbola</a></li>
 <li><a href="https://github.com/KaOSx/apps/blob/master/uriparser/PKGBUILD">KaOSx</a></li>
 <li><a href="https://community.linuxmint.com/software/view/liburiparser-dev">Linux Mint</a></li>
 <li><a href="https://github.com/lunar-linux/moonbase-other/blob/master/libs/uriparser/DETAILS">Lunar Linux</a></li>
@@ -145,7 +145,6 @@ Thank you!</p>
 <li><a href="https://github.com/pld-linux/uriparser/blob/master/uriparser.spec">PLD linux</a></li>
 <li><a href="https://abf.rosalinux.ru/import/uriparser">ROSA Linux</a></li>
 <li><a href="https://slackbuilds.org/repository/14.2/libraries/uriparser/">SlackBuilds</a></li>
-<li><a href="https://packages.slackonly.com/pub/packages/current-x86_64/libraries/uriparser/">SlackOnly</a></li>
 <li><a href="http://repository.slacky.eu/slackware-12.0/development/uriparser/">Slackware</a></li>
 <li><a href="http://svn.exactcode.de/t2/trunk/package/www/uriparser/uriparser.desc">T2 SDE</a></li>
 <li><a href="http://packages.ubuntu.com/source/uriparser">Ubuntu</a></li>
@@ -178,7 +177,7 @@ Thank you!</p>
     
 
 </article><!--End of body content--><footer id="footer">
-            Contents © 2020         <a href="mailto:sebastian@pipping.org">Sebastian Pipping</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            Contents © 2021         <a href="mailto:sebastian@pipping.org">Sebastian Pipping</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
             
             
         </footer>
@@ -189,9 +188,7 @@ Thank you!</p>
         <script src="../../assets/js/all-nocdn.js"></script><script>
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
-        captions: function(element) {
-            return element.getElementsByTagName('img')[0].alt;
-    }});
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
     </script>
 </body>
 </html>
