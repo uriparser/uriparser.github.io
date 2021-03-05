@@ -31,7 +31,7 @@ Wherever you go, uriparser is already waiting for you:
 * __Haiku__
     * [HaikuPorts](https://github.com/haikuports/haikuports/tree/master/dev-libs/uriparser)
 * __Linux__
-    * [Alpine Linux](https://git.alpinelinux.org/cgit/aports/tree/main/uriparser)
+    * [Alpine Linux](https://pkgs.alpinelinux.org/packages?name=*uriparser*&branch=edge)
     * [ALT Linux](http://sisyphus.ru/srpm/liburiparser)
     * [AOSC](https://packages.aosc.io/packages/uriparser)
     * [Arch Linux](https://www.archlinux.org/packages/?sort=&q=uriparser&maintainer=&flagged=)
