@@ -42,7 +42,7 @@ URI parsing and handling library
 written in C89 ("ANSI C").
 uriparser is cross-platform,
 fast,
-supports Unicode, and
+supports both `char` and `wchar_t` strings, and
 is licensed under the [New BSD license](https://github.com/uriparser/uriparser/blob/master/COPYING).
 
 There are a number of [applications, libraries and hardware using uriparser](doc/users/),
@@ -73,7 +73,7 @@ Sebastian Pipping
     * Recomposition ([section 5.3](http://tools.ietf.org/html/rfc3986#section-5.3), since version 0.4.0)
     * Syntax-based normalization ([section 6.2.2](http://tools.ietf.org/html/rfc3986#section-6.2.2), since version 0.5.0)
 * Fast (linear input length time complexity)
-* Unicode support
+* Support for both `char` and `wchar_t` strings
 * No external dependencies
 * Extensive unit testing using [CppTest](http://cpptest.sourceforge.net/)
 * Liberal license ([New BSD license](https://github.com/uriparser/uriparser/blob/master/COPYING))
