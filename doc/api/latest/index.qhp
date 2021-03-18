@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QtHelpProject version="1.0">
   <namespace>io.github.uriparser</namespace>
-  <virtualFolder>uriparser-0.9.4</virtualFolder>
+  <virtualFolder>uriparser-0.9.5</virtualFolder>
   <filterSection>
     <filterAttribute>doxygen</filterAttribute>
     <toc>
-      <section title="uriparser 0.9.4" ref="index.html">
+      <section title="uriparser 0.9.5" ref="index.html">
         <section title="Table of Contents" ref="index.html#SEC_TOC" />
         <section title="Introduction" ref="index.html#intro">
           <section title="Parsing URIs (from string to object)" ref="index.html#parsing" />
@@ -15,8 +15,8 @@
           <section title="Filenames and URIs" ref="index.html#filenames" />
           <section title="Normalizing URIs" ref="index.html#normalization" />
         </section>
-        <section title="Working with query strings" ref="index.html#querystrings" />
-        <section title="Ansi and Unicode" ref="index.html#chartypes" />
+        <section title="Working with Query Strings" ref="index.html#querystrings" />
+        <section title="Narrow Strings and Wide Strings" ref="index.html#chartypes" />
         <section title="Autoconf Check" ref="index.html#autoconf" />
         <section title="Deprecated List" ref="deprecated.html" />
         <section title="Data Structures" ref="annotated.html">
@@ -165,8 +165,8 @@
               <section title="uriRemoveBaseUriMmA" ref="Uri_8h.html#af948b48ec0749192f1a944b044d5726f" />
               <section title="uriToStringA" ref="Uri_8h.html#a08813021a130814b9ddf2d62286dc12d" />
               <section title="uriToStringCharsRequiredA" ref="Uri_8h.html#a10be185f8238395caf0bd23acec0f931" />
-              <section title="uriUnescapeInPlaceA" ref="Uri_8h.html#a7508072c3f2c1208b9a8cde6d6b18ce3" />
-              <section title="uriUnescapeInPlaceExA" ref="Uri_8h.html#a6b0c633397a720730af3c9d4b4b7afee" />
+              <section title="uriUnescapeInPlaceA" ref="Uri_8h.html#a0c4eca5d6d7c707972d23f1ec0516d43" />
+              <section title="uriUnescapeInPlaceExA" ref="Uri_8h.html#a8b5f54dd82250b9d3f97f4bd58dfdc08" />
               <section title="uriUnixFilenameToUriStringA" ref="Uri_8h.html#a9106aaff82334e8deac0bd4d7953fe5c" />
               <section title="uriUriStringToUnixFilenameA" ref="Uri_8h.html#a4afbc8453c7013b9618259bc57d81a39" />
               <section title="uriUriStringToWindowsFilenameA" ref="Uri_8h.html#a3d06e5f9a347525b3036850a26084f34" />
@@ -259,8 +259,8 @@
       <keyword name="uriFreeUriMembersMmA" id="Uri.h::uriFreeUriMembersMmA" ref="Uri_8h.html#a0a85e4860f71fd3c8caf1809ef9558d5" />
       <keyword name="uriEscapeExA" id="Uri.h::uriEscapeExA" ref="Uri_8h.html#a37c3171ad4651605181f9a74bb3ced4c" />
       <keyword name="uriEscapeA" id="Uri.h::uriEscapeA" ref="Uri_8h.html#afb6e168103fe751c7288df51f9c8c5bd" />
-      <keyword name="uriUnescapeInPlaceExA" id="Uri.h::uriUnescapeInPlaceExA" ref="Uri_8h.html#a6b0c633397a720730af3c9d4b4b7afee" />
-      <keyword name="uriUnescapeInPlaceA" id="Uri.h::uriUnescapeInPlaceA" ref="Uri_8h.html#a7508072c3f2c1208b9a8cde6d6b18ce3" />
+      <keyword name="uriUnescapeInPlaceExA" id="Uri.h::uriUnescapeInPlaceExA" ref="Uri_8h.html#a8b5f54dd82250b9d3f97f4bd58dfdc08" />
+      <keyword name="uriUnescapeInPlaceA" id="Uri.h::uriUnescapeInPlaceA" ref="Uri_8h.html#a0c4eca5d6d7c707972d23f1ec0516d43" />
       <keyword name="uriAddBaseUriA" id="Uri.h::uriAddBaseUriA" ref="Uri_8h.html#ac79c120f488982605d797dfd70a52f1a" />
       <keyword name="uriAddBaseUriExA" id="Uri.h::uriAddBaseUriExA" ref="Uri_8h.html#a6eb589fa0ecc39e71251c9a042eb1a91" />
       <keyword name="uriAddBaseUriExMmA" id="Uri.h::uriAddBaseUriExMmA" ref="Uri_8h.html#ac476328d803d3c62634ecb3907317934" />
@@ -380,7 +380,6 @@
       <file>nav_h.png</file>
       <file>nav_f.png</file>
       <file>bc_s.png</file>
-      <file>doxygen.png</file>
       <file>closed.png</file>
       <file>open.png</file>
       <file>bdwn.png</file>
@@ -392,8 +391,8 @@
       <file>search/search_l.png</file>
       <file>search/search_m.png</file>
       <file>search/search_r.png</file>
-      <file>search/close.png</file>
-      <file>search/mag_sel.png</file>
+      <file>search/close.svg</file>
+      <file>search/mag_sel.svg</file>
       <file>search/search.css</file>
       <file>search/search.js</file>
       <file>Uri_8h.html</file>
