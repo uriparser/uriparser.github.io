@@ -11,6 +11,9 @@
 
 # Latest News
 
+* 2021-03-18 —
+  [uriparser 0.9.**5**](https://github.com/uriparser/uriparser/blob/uriparser-0.9.5/ChangeLog)
+  has been released
 * 2020-05-31 —
   [uriparser 0.9.**4**](https://github.com/uriparser/uriparser/blob/uriparser-0.9.4/ChangeLog)
   has been released
