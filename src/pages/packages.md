@@ -55,7 +55,6 @@ Wherever you go, uriparser is already waiting for you:
     * [PLD linux](https://github.com/pld-linux/uriparser/blob/master/uriparser.spec)
     * [ROSA Linux](https://abf.rosalinux.ru/import/uriparser)
     * [SlackBuilds](https://slackbuilds.org/repository/14.2/libraries/uriparser/)
-    * [Slackware](http://repository.slacky.eu/slackware-12.0/development/uriparser/)
     * [T2 SDE](http://svn.exactcode.de/t2/trunk/package/www/uriparser/uriparser.desc)
     * [Ubuntu](http://packages.ubuntu.com/source/uriparser)
     * [Void Linux](https://github.com/void-linux/void-packages/blob/master/srcpkgs/uriparser/template)
