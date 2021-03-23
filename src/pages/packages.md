@@ -48,6 +48,7 @@ Wherever you go, uriparser is already waiting for you:
     * [Lunar Linux](https://github.com/lunar-linux/moonbase-other/blob/master/libs/uriparser/DETAILS)
     * [NixOS](https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/libraries/uriparser/default.nix)
     * [OpenEmbedded](https://github.com/openembedded/meta-openembedded/tree/master/meta-oe/recipes-support/uriparser)
+    * [openmamba](https://openmamba.org/en/packages/?tag=devel&pkg=uriparser.source)
     * [OpenMandriva](https://github.com/OpenMandrivaAssociation/uriparser/blob/master/uriparser.spec)
     * [openSUSE](https://build.opensuse.org/package/show/devel:libraries:c_c++/uriparser)
     * [Parabola](https://www.parabola.nu/packages/community/x86_64/uriparser/)
