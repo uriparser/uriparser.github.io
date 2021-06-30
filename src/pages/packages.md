@@ -21,6 +21,7 @@ Wherever you go, uriparser is already waiting for you:
     * [Buckaroo](https://buckaroo.pm/packages/buckaroo-pm/uriparser)
     * [Conan](https://github.com/conan-io/conan-center-index/tree/master/recipes/uriparser)
     * [OpenPKG](http://download.openpkg.org/packages/current/source/EVAL/)
+    * [Spack](https://github.com/spack/spack/blob/develop/var/spack/repos/builtin/packages/uriparser/package.py)
     * [vcpkg](https://github.com/Microsoft/vcpkg/tree/master/ports/uriparser)
 * __AIX__
     * [AIX Open Source Packages](http://www.oss4aix.org/download/SRPMS/uriparser/)
