@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QtHelpProject version="1.0">
   <namespace>io.github.uriparser</namespace>
-  <virtualFolder>uriparser-0.9.5</virtualFolder>
+  <virtualFolder>uriparser-0.9.6</virtualFolder>
   <filterSection>
     <filterAttribute>doxygen</filterAttribute>
     <toc>
-      <section title="uriparser 0.9.5" ref="index.html">
+      <section title="uriparser 0.9.6" ref="index.html">
         <section title="Table of Contents" ref="index.html#SEC_TOC" />
         <section title="Introduction" ref="index.html#intro">
           <section title="Parsing URIs (from string to object)" ref="index.html#parsing" />
@@ -143,8 +143,8 @@
               <section title="uriDissectQueryMallocExA" ref="Uri_8h.html#a3fb624c2abcecfcc3617450bc0b0d5ac" />
               <section title="uriDissectQueryMallocExMmA" ref="Uri_8h.html#aa452ea0731ce5003089f75883f5e9718" />
               <section title="uriEqualsUriA" ref="Uri_8h.html#a058dd1d9c5d7ea373a6995449b46d950" />
-              <section title="uriEscapeA" ref="Uri_8h.html#afb6e168103fe751c7288df51f9c8c5bd" />
-              <section title="uriEscapeExA" ref="Uri_8h.html#a37c3171ad4651605181f9a74bb3ced4c" />
+              <section title="uriEscapeA" ref="Uri_8h.html#a808563dc7651af40b92f40a7522b4062" />
+              <section title="uriEscapeExA" ref="Uri_8h.html#a5aa51f5859693dc901e8c2e23679cc5f" />
               <section title="uriFreeQueryListA" ref="Uri_8h.html#a6005856f3663126a643d3b4d0a14a557" />
               <section title="uriFreeQueryListMmA" ref="Uri_8h.html#a3e6d79f620e4331a5425bca42d07f17b" />
               <section title="uriFreeUriMembersA" ref="Uri_8h.html#aad03e83d27add58b3a7e521b94af8f30" />
@@ -165,8 +165,8 @@
               <section title="uriRemoveBaseUriMmA" ref="Uri_8h.html#af948b48ec0749192f1a944b044d5726f" />
               <section title="uriToStringA" ref="Uri_8h.html#a08813021a130814b9ddf2d62286dc12d" />
               <section title="uriToStringCharsRequiredA" ref="Uri_8h.html#a10be185f8238395caf0bd23acec0f931" />
-              <section title="uriUnescapeInPlaceA" ref="Uri_8h.html#a0c4eca5d6d7c707972d23f1ec0516d43" />
-              <section title="uriUnescapeInPlaceExA" ref="Uri_8h.html#a8b5f54dd82250b9d3f97f4bd58dfdc08" />
+              <section title="uriUnescapeInPlaceA" ref="Uri_8h.html#a8dcd80dbdd41840a05d33648203aaecd" />
+              <section title="uriUnescapeInPlaceExA" ref="Uri_8h.html#aa28f975c85091e8c18cbfda7267e8841" />
               <section title="uriUnixFilenameToUriStringA" ref="Uri_8h.html#a9106aaff82334e8deac0bd4d7953fe5c" />
               <section title="uriUriStringToUnixFilenameA" ref="Uri_8h.html#a4afbc8453c7013b9618259bc57d81a39" />
               <section title="uriUriStringToWindowsFilenameA" ref="Uri_8h.html#a3d06e5f9a347525b3036850a26084f34" />
@@ -189,11 +189,11 @@
               </section>
               <section title="UriBool" ref="UriBase_8h.html#ab2e3d0e349df122b6e7da6d18c552655" />
               <section title="UriBreakConversion" ref="UriBase_8h.html#a1a3015966b58da6e4bfa7b5cd2aa6a55" />
-              <section title="UriFuncCalloc" ref="UriBase_8h.html#af3adeb9e64b6325d4af5256a85d72a2f" />
+              <section title="UriFuncCalloc" ref="UriBase_8h.html#a8b1d8969ad9d61b422ccdcbb8f720176" />
               <section title="UriFuncFree" ref="UriBase_8h.html#a9339dfd72f2d3791a54bfa5821c3dcff" />
-              <section title="UriFuncMalloc" ref="UriBase_8h.html#a7f9c73815a6172201dec3c5913db8621" />
-              <section title="UriFuncRealloc" ref="UriBase_8h.html#a7e00cacd8b3bdc2a12cd4b947c8bd771" />
-              <section title="UriFuncReallocarray" ref="UriBase_8h.html#a4edea6fcfaa601907f1a9d4c7dd4e74e" />
+              <section title="UriFuncMalloc" ref="UriBase_8h.html#a3e610352a54bfb0394c079b4a1653091" />
+              <section title="UriFuncRealloc" ref="UriBase_8h.html#ae29100564d371216fab74ff03ba1ce1c" />
+              <section title="UriFuncReallocarray" ref="UriBase_8h.html#a6057d82ce33c4f7f2ab3ddffd1f4e737" />
               <section title="UriIp4" ref="UriBase_8h.html#af5264347e3da653b3139aac48b78ad7c" />
               <section title="UriIp6" ref="UriBase_8h.html#a08f4ff2717dfde5806c712f59bc2d849" />
               <section title="UriMemoryManager" ref="UriBase_8h.html#aee8a546540f539eb4ae16248f3ae1aaa" />
@@ -222,8 +222,8 @@
                 <section title="URI_RESOLVE_IDENTICAL_SCHEME_COMPAT" ref="UriBase_8h.html#a1cdbeee44519b34292fab4b7d9213df1afc17d64c3fb7a315616512cd96b23f06" />
               </section>
               <section title="uriCompleteMemoryManager" ref="UriBase_8h.html#ae7811d209ed03e3a7e6e9a021a3a5fb4" />
-              <section title="uriEmulateCalloc" ref="UriBase_8h.html#a40f40e509f655e0a97fcad032e98ade8" />
-              <section title="uriEmulateReallocarray" ref="UriBase_8h.html#a9afdc3df484ad4acd4b291f21bf8296b" />
+              <section title="uriEmulateCalloc" ref="UriBase_8h.html#a83070f1c356f702a168c92d0704e9d80" />
+              <section title="uriEmulateReallocarray" ref="UriBase_8h.html#afa27685237a224144d877356e83fc4f1" />
               <section title="uriTestMemoryManager" ref="UriBase_8h.html#ac6bed1fb193bfe991cfb384bed299489" />
             </section>
             <section title="UriDefsAnsi.h" ref="UriDefsAnsi_8h.html" />
@@ -257,10 +257,10 @@
       <keyword name="uriParseSingleUriExMmA" id="Uri.h::uriParseSingleUriExMmA" ref="Uri_8h.html#a4d658fa50f5d160959e352baeeb82987" />
       <keyword name="uriFreeUriMembersA" id="Uri.h::uriFreeUriMembersA" ref="Uri_8h.html#aad03e83d27add58b3a7e521b94af8f30" />
       <keyword name="uriFreeUriMembersMmA" id="Uri.h::uriFreeUriMembersMmA" ref="Uri_8h.html#a0a85e4860f71fd3c8caf1809ef9558d5" />
-      <keyword name="uriEscapeExA" id="Uri.h::uriEscapeExA" ref="Uri_8h.html#a37c3171ad4651605181f9a74bb3ced4c" />
-      <keyword name="uriEscapeA" id="Uri.h::uriEscapeA" ref="Uri_8h.html#afb6e168103fe751c7288df51f9c8c5bd" />
-      <keyword name="uriUnescapeInPlaceExA" id="Uri.h::uriUnescapeInPlaceExA" ref="Uri_8h.html#a8b5f54dd82250b9d3f97f4bd58dfdc08" />
-      <keyword name="uriUnescapeInPlaceA" id="Uri.h::uriUnescapeInPlaceA" ref="Uri_8h.html#a0c4eca5d6d7c707972d23f1ec0516d43" />
+      <keyword name="uriEscapeExA" id="Uri.h::uriEscapeExA" ref="Uri_8h.html#a5aa51f5859693dc901e8c2e23679cc5f" />
+      <keyword name="uriEscapeA" id="Uri.h::uriEscapeA" ref="Uri_8h.html#a808563dc7651af40b92f40a7522b4062" />
+      <keyword name="uriUnescapeInPlaceExA" id="Uri.h::uriUnescapeInPlaceExA" ref="Uri_8h.html#aa28f975c85091e8c18cbfda7267e8841" />
+      <keyword name="uriUnescapeInPlaceA" id="Uri.h::uriUnescapeInPlaceA" ref="Uri_8h.html#a8dcd80dbdd41840a05d33648203aaecd" />
       <keyword name="uriAddBaseUriA" id="Uri.h::uriAddBaseUriA" ref="Uri_8h.html#ac79c120f488982605d797dfd70a52f1a" />
       <keyword name="uriAddBaseUriExA" id="Uri.h::uriAddBaseUriExA" ref="Uri_8h.html#a6eb589fa0ecc39e71251c9a042eb1a91" />
       <keyword name="uriAddBaseUriExMmA" id="Uri.h::uriAddBaseUriExMmA" ref="Uri_8h.html#ac476328d803d3c62634ecb3907317934" />
@@ -295,18 +295,18 @@
       <keyword name="UriBool" id="UriBase.h::UriBool" ref="UriBase_8h.html#ab2e3d0e349df122b6e7da6d18c552655" />
       <keyword name="UriIp4" id="UriBase.h::UriIp4" ref="UriBase_8h.html#af5264347e3da653b3139aac48b78ad7c" />
       <keyword name="UriIp6" id="UriBase.h::UriIp6" ref="UriBase_8h.html#a08f4ff2717dfde5806c712f59bc2d849" />
-      <keyword name="UriFuncMalloc" id="UriBase.h::UriFuncMalloc" ref="UriBase_8h.html#a7f9c73815a6172201dec3c5913db8621" />
-      <keyword name="UriFuncCalloc" id="UriBase.h::UriFuncCalloc" ref="UriBase_8h.html#af3adeb9e64b6325d4af5256a85d72a2f" />
-      <keyword name="UriFuncRealloc" id="UriBase.h::UriFuncRealloc" ref="UriBase_8h.html#a7e00cacd8b3bdc2a12cd4b947c8bd771" />
-      <keyword name="UriFuncReallocarray" id="UriBase.h::UriFuncReallocarray" ref="UriBase_8h.html#a4edea6fcfaa601907f1a9d4c7dd4e74e" />
+      <keyword name="UriFuncMalloc" id="UriBase.h::UriFuncMalloc" ref="UriBase_8h.html#a3e610352a54bfb0394c079b4a1653091" />
+      <keyword name="UriFuncCalloc" id="UriBase.h::UriFuncCalloc" ref="UriBase_8h.html#a8b1d8969ad9d61b422ccdcbb8f720176" />
+      <keyword name="UriFuncRealloc" id="UriBase.h::UriFuncRealloc" ref="UriBase_8h.html#ae29100564d371216fab74ff03ba1ce1c" />
+      <keyword name="UriFuncReallocarray" id="UriBase.h::UriFuncReallocarray" ref="UriBase_8h.html#a6057d82ce33c4f7f2ab3ddffd1f4e737" />
       <keyword name="UriFuncFree" id="UriBase.h::UriFuncFree" ref="UriBase_8h.html#a9339dfd72f2d3791a54bfa5821c3dcff" />
       <keyword name="UriMemoryManager" id="UriBase.h::UriMemoryManager" ref="UriBase_8h.html#aee8a546540f539eb4ae16248f3ae1aaa" />
       <keyword name="UriBreakConversion" id="UriBase.h::UriBreakConversion" ref="UriBase_8h.html#a1a3015966b58da6e4bfa7b5cd2aa6a55" />
       <keyword name="UriNormalizationMask" id="UriBase.h::UriNormalizationMask" ref="UriBase_8h.html#a79cf947ebd1afabf3de855f2ff75772b" />
       <keyword name="UriResolutionOptions" id="UriBase.h::UriResolutionOptions" ref="UriBase_8h.html#a23a6259607a97b697372eb9456caa30d" />
       <keyword name="uriCompleteMemoryManager" id="UriBase.h::uriCompleteMemoryManager" ref="UriBase_8h.html#ae7811d209ed03e3a7e6e9a021a3a5fb4" />
-      <keyword name="uriEmulateCalloc" id="UriBase.h::uriEmulateCalloc" ref="UriBase_8h.html#a40f40e509f655e0a97fcad032e98ade8" />
-      <keyword name="uriEmulateReallocarray" id="UriBase.h::uriEmulateReallocarray" ref="UriBase_8h.html#a9afdc3df484ad4acd4b291f21bf8296b" />
+      <keyword name="uriEmulateCalloc" id="UriBase.h::uriEmulateCalloc" ref="UriBase_8h.html#a83070f1c356f702a168c92d0704e9d80" />
+      <keyword name="uriEmulateReallocarray" id="UriBase.h::uriEmulateReallocarray" ref="UriBase_8h.html#afa27685237a224144d877356e83fc4f1" />
       <keyword name="uriTestMemoryManager" id="UriBase.h::uriTestMemoryManager" ref="UriBase_8h.html#ac6bed1fb193bfe991cfb384bed299489" />
       <keyword name="URI_BR_TO_LF" id="UriBase.h::URI_BR_TO_LF" ref="UriBase_8h.html#a411334aa7c810d330d05a50504a7cfccaeb14ced8ebdf1dc3ec29796560e24feb" />
       <keyword name="URI_BR_TO_CRLF" id="UriBase.h::URI_BR_TO_CRLF" ref="UriBase_8h.html#a411334aa7c810d330d05a50504a7cfcca72892d5f467aa9a9f426f422c18e1f68" />
