@@ -56,7 +56,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
 * __H__
     * [har](https://github.com/otterley/har) — high-availability resolver (see [`har.c`](https://github.com/otterley/har/blob/6f245395b2465afbf7449a2981ee1459a5c4fada/har.c))
     * [Harbour contrib](https://github.com/emazv72/hbcontrib) (see [`harbour-core/contrib/hburiparser/hburiparser.c`](https://github.com/emazv72/hbcontrib/blob/4d78d492619303ccdfbfbb77a92764d9446be3d5/harbour-core/contrib/hburiparser/hburiparser.c))
-    * [**HPCC Systems**](https://github.com/hpcc-systems/HPCC-Platform) — open source, massive parallel-processing computing platform for big data processing and analytics (see [`common/remote/uri.cpp`](https://github.com/hpcc-systems/HPCC-Platform/blob/master/common/remote/uri.cpp))
+    * [HPCC Systems](https://github.com/hpcc-systems/HPCC-Platform) — open source, massive parallel-processing computing platform for big data processing and analytics (see [`common/remote/uri.cpp`](https://github.com/hpcc-systems/HPCC-Platform/blob/master/common/remote/uri.cpp))
     * [hpks](https://github.com/Rost-enTroniX/hpks) — Holzgas-Puffer-Kontroll-System (see [`HPKS/json_worker.c`](https://github.com/Rost-enTroniX/hpks/blob/master/HPKS/json_worker.c))
     * [hsfs2](https://github.com/openunix/hsfs2) — Not only an NFS client via Fuse (see [`hsfs/hsfs_main.c`](https://github.com/openunix/hsfs2/blob/master/hsfs/hsfs_main.c))
 * __I__
@@ -82,7 +82,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [linkshare](https://github.com/lvecsey/linkshare) — LinkShare FastCGI program (see [`json_conv.c`](https://github.com/lvecsey/linkshare/blob/master/json_conv.c))
     * [luna-sysservice](https://github.com/openwebos/luna-sysservice) — Open webOS image manipulation, preference, timezone and ringtone services (see [`Src/UrlRep.cpp`](https://github.com/openwebos/luna-sysservice/blob/c59b806a70bc1489a45f22454f07718bce51d350/Src/UrlRep.cpp))
 * __M__
-    * [**Machinekit**](http://www.machinekit.io/) — platform for machine control applications (see [` src/machinetalk/webtalk/webtalk_wsproxy.cc`](https://github.com/machinekit/machinekit/blob/9e5dedd360fddd31cb8963a714f7297519c6bd4e/src/machinetalk/webtalk/webtalk_wsproxy.cc))
+    * [Machinekit](http://www.machinekit.io/) — platform for machine control applications (see [` src/machinetalk/webtalk/webtalk_wsproxy.cc`](https://github.com/machinekit/machinekit/blob/9e5dedd360fddd31cb8963a714f7297519c6bd4e/src/machinetalk/webtalk/webtalk_wsproxy.cc))
     * [MediaProcessors](https://github.com/rantoniello/MediaProcessors) — library for multimedia processing and streaming with REST-based control interface (see [`utils/src/uri_parser.c`](https://github.com/rantoniello/MediaProcessors/blob/master/utils/src/uri_parser.c))
     * [**MiKTeX**](http://miktex.org/) — implementation of TeX/LaTeX and related programs for Windows (see [` Libraries/MiKTeX/Core/Uri.cpp`](https://github.com/TexRussia/miktex/blob/f8a75ab6d2c78ef404649355c6581b71b68ae96a/Libraries/MiKTeX/Core/Uri.cpp))
     * [mqtt-http-server](https://github.com/tobyjaffey/mqtt-http-server) — HTTPD supporting [MQTT](https://en.wikipedia.org/wiki/MQTT) for long polled subscriptions (see [`httpd.c`](https://github.com/tobyjaffey/mqtt-http-server/blob/45a676b29b2598d0ee26d39f6f15d7f33a5ab307/httpd.c))
@@ -90,13 +90,13 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
 * __N__
     * [nodeoze](https://github.com/collobos/nodeoze) — node inspired library for modern c++  (see [`src/nuri.cpp`](https://github.com/collobos/nodeoze/blob/master/src/nuri.cpp))
 * __O__
-    * [**openFrameworks**](https://github.com/openframeworks/openFrameworks) — community-developed cross platform toolkit for creative coding in C++ (see [`libs/openFrameworks/graphics/ofImage.cpp`](https://github.com/openframeworks/openFrameworks/blob/master/libs/openFrameworks/graphics/ofImage.cpp))
+    * [openFrameworks](https://github.com/openframeworks/openFrameworks) — community-developed cross platform toolkit for creative coding in C++ (see [`libs/openFrameworks/graphics/ofImage.cpp`](https://github.com/openframeworks/openFrameworks/blob/master/libs/openFrameworks/graphics/ofImage.cpp))
     * [OpenMoko Media Player](http://www.openmoko.org/) — media player for [OM2007.2](http://wiki.openmoko.org/wiki/Om_2007.2) (see [`openmoko-mediaplayer2/src/playlist.c`](https://github.com/shr-project/shr/blob/7f1c1b2fc81ce99815fe7946acf2c8d06502ad73/openmoko-mediaplayer2/src/playlist.c))
     * [Open vStorage VolumeDriver](https://github.com/openvstorage/volumedriver) — core of the Open vStorage solution: a high performance distributed block layer; converts block storage into objects (Storage Container Objects) (see [`src/youtils/Uri.cpp`](https://github.com/openvstorage/volumedriver/blob/dev/src/youtils/Uri.cpp))
     * [Orfeo ToolBox](https://www.orfeo-toolbox.org/) — remote sensing images processing (see [`Utilities/otbkml/src/kml/base/uri_parser.cc`](https://github.com/inglada/OTB/blob/8b6d8a7df9d54c2b13189e00ba8fcb070e78e916/Utilities/otbkml/src/kml/base/uri_parser.cc))
 * __P__
     * [PDL Tools](https://github.com/pivotalsoftware/PDLTools) — library of reusable tools used and developed by the Pivotal Data Science and Data Engineering teams (see [`src/modules/uri_utils/uri_utils.c`](https://github.com/pivotalsoftware/PDLTools/blob/master/src/modules/uri_utils/uri_utils.c))
-    * [**pguri**](https://github.com/petere/pguri) — uri type for PostgreSQL (see [` uri.c`](https://github.com/petere/pguri/blob/290dd477f3168bc09c7179960201ea5e9411c7a6/uri.c))
+    * [pguri](https://github.com/petere/pguri) — uri type for PostgreSQL (see [` uri.c`](https://github.com/petere/pguri/blob/290dd477f3168bc09c7179960201ea5e9411c7a6/uri.c))
     * [polyorc](https://github.com/codeape/polyorc) — http load generator (see [`polyorclib/polyorcmatcher.c`](https://github.com/codeape/polyorc/blob/master/polyorclib/polyorcmatcher.c))
 * __Q__
     * [querysort](https://github.com/Dridi/querysort) — RFC 1866 querystring sorting program and library (see [`src/querysort_main.c`](https://github.com/Dridi/querysort/blob/master/src/querysort_main.c))
@@ -115,7 +115,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [TheVoid](https://github.com/izenecloud/thevoid) — asynchronious event-driven C++ library (see [`thevoid/swarm/url.cpp`](https://github.com/izenecloud/thevoid/blob/62ea68515c382ce70a715c07eda207a1d5930bab/thevoid/swarm/url.cpp))
     * [tpm2-tss](https://github.com/intel/tpm2-tss) — Trusted Computing Group's (TCG) TPM2 Software Stack (TSS) (see [`tcti/tcti_socket.c`](https://github.com/intel/tpm2-tss/blob/master/tcti/tcti_socket.c))
     * [trecul](https://github.com/akamai-tech/trecul) — C++ dataflow library (see [`ads-df/FileSystem.cc`](https://github.com/akamai-tech/trecul/blob/84e5fb2aeb36db868086209599bfaa20cbd1abc8/ads-df/FileSystem.cc))
-    * [**Tvheadend**](https://tvheadend.org/) — TV streaming server for Linux (see [`src/url.c`](https://github.com/tvheadend/tvheadend/blob/147841b6504496c609e175364c51f5d55abd3fd7/src/url.c))
+    * [Tvheadend](https://tvheadend.org/) — TV streaming server for Linux (see [`src/url.c`](https://github.com/tvheadend/tvheadend/blob/147841b6504496c609e175364c51f5d55abd3fd7/src/url.c))
 * __U__
     * [urbin](https://github.com/verpeteren/urbin) — async'd non-block'd server (see [`src/feature/webclient.h`](https://github.com/verpeteren/urbin/blob/master/src/feature/webclient.h))
     * [uSCXML](https://github.com/tklab-tud/uscxml) —  SCXML interpreter and transformer/compiler written in C/C++ with bindings to Java, C#, Python and Lua (see [`src/uscxml/util/URL.cpp`](https://github.com/tklab-tud/uscxml/blob/master/src/uscxml/util/URL.cpp))
