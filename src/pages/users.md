@@ -124,7 +124,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [Vertica Extension Packages](https://github.com/vertica/Vertica-Extension-Packages) — User Defined Extensions to the Vertica Analytic Database (see [`web_package/src/UriExtractor.cpp`](https://github.com/vertica/Vertica-Extension-Packages/blob/master/web_package/src/UriExtractor.cpp))
 
 
-# Hardware
+# <a name="hardware"></a> Hardware
 
 * [hisense Smart TV Series 5](https://github.com/opensource-hisense/SmartTV-Series5/blob/master/source/uriparser/uriparser_external/UriGlue.c)
 * [hisense Smart TV Series 7](https://github.com/opensource-hisense/SmartTV-Series7/blob/master/Opensource%20Software/uriparser/uriparser_external/UriGlue.c)
