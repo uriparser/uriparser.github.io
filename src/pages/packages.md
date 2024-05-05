@@ -29,7 +29,7 @@ Wherever you go, uriparser is already waiting for you:
     * [DragonFly BSD](https://github.com/DragonFlyBSD/DPorts/tree/master/net/uriparser)
     * [FreeBSD](http://www.freebsd.org/cgi/cvsweb.cgi/ports/net/uriparser/)
     * [NetBSD](http://pkgsrc.se/textproc/uriparser)
-    * [OpenBSD](http://openports.se/www/uriparser)
+    * [OpenBSD](https://github.com/openbsd/ports/tree/master/www/uriparser)
 * __Haiku__
     * [HaikuPorts](https://github.com/haikuports/haikuports/tree/master/dev-libs/uriparser)
 * __Linux__
