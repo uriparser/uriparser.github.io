@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['ip4_0',['ip4',['../structUriHostDataStructA.html#aac377109041d3d29e1f2b84483585cf6',1,'UriHostDataStructA']]],
-  ['ip6_1',['ip6',['../structUriHostDataStructA.html#a606a6f6210f510a3c58864bfe4a9e735',1,'UriHostDataStructA']]],
-  ['ipfuture_2',['ipFuture',['../structUriHostDataStructA.html#a445e6e9aa40135e8fb0354b82bea5644',1,'UriHostDataStructA']]]
+  ['hostdata_0',['hostData',['../structUriUriStructA.html#a2d713adf6bcf52d41ad10b62df4d1353',1,'UriUriStructA']]],
+  ['hosttext_1',['hostText',['../structUriUriStructA.html#a8785f975abe90491a1d2a7d10e591d74',1,'UriUriStructA']]]
 ];

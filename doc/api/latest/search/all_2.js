@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['data_0',['data',['../structUriIp4Struct.html#a1313fbf2e999ad021f220cbf61ec9688',1,'UriIp4Struct::data()'],['../structUriIp6Struct.html#a512181404219812104863ccac1feead3',1,'UriIp6Struct::data()']]],
-  ['deprecated_20list_1',['Deprecated List',['../deprecated.html',1,'']]]
+  ['calloc_0',['calloc',['../structUriMemoryManagerStruct.html#afe3fdb86a91a00161057d150ea4665be',1,'UriMemoryManagerStruct']]],
+  ['check_1',['Autoconf Check',['../index.html#autoconf',1,'']]],
+  ['contents_2',['Table of Contents',['../index.html#SEC_TOC',1,'']]],
+  ['creating_20references_3',['Creating References',['../index.html#shortening',1,'']]]
 ];

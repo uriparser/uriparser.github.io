@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['realloc_0',['realloc',['../structUriMemoryManagerStruct.html#a607a90ccb4b4c279b72b4cc86d43b4ed',1,'UriMemoryManagerStruct']]],
-  ['reallocarray_1',['reallocarray',['../structUriMemoryManagerStruct.html#adcfd5fd83b0455d4862472e272bfbf5d',1,'UriMemoryManagerStruct']]],
-  ['reserved_2',['reserved',['../structUriPathSegmentStructA.html#a4544f2a75ed89c0744fd045d631cf3d9',1,'UriPathSegmentStructA::reserved()'],['../structUriUriStructA.html#a4544f2a75ed89c0744fd045d631cf3d9',1,'UriUriStructA::reserved()'],['../structUriParserStateStructA.html#a4544f2a75ed89c0744fd045d631cf3d9',1,'UriParserStateStructA::reserved()']]]
+  ['parsing_20uris_20from_20string_20to_20object_0',['Parsing URIs (from string to object)',['../index.html#parsing',1,'']]],
+  ['pathhead_1',['pathHead',['../structUriUriStructA.html#a818fe29f52f4b50264df4e259b85ed54',1,'UriUriStructA']]],
+  ['pathtail_2',['pathTail',['../structUriUriStructA.html#a7ffeb05ecfcebe37387835679556a64d',1,'UriUriStructA']]],
+  ['porttext_3',['portText',['../structUriUriStructA.html#adb6e1372050754b12e3a47602c84231f',1,'UriUriStructA']]]
 ];

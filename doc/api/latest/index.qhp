@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QtHelpProject version="1.0">
 <namespace>io.github.uriparser</namespace>
-<virtualFolder>uriparser-0.9.7</virtualFolder>
+<virtualFolder>uriparser-0.9.8</virtualFolder>
 <filterSection>
 <filterAttribute>doxygen</filterAttribute>
 <toc>
-<section title="uriparser 0.9.7" ref="index.html">
+<section title="uriparser 0.9.8" ref="index.html">
 <section title="Table of Contents" ref="index.html#SEC_TOC"/>
 <section title="Introduction" ref="index.html#intro">
 <section title="Parsing URIs (from string to object)" ref="index.html#parsing"/>
@@ -404,21 +404,17 @@
 <file>annotated.html</file>
 <file>bc_s.png</file>
 <file>bc_sd.png</file>
-<file>bdwn.png</file>
 <file>classes.html</file>
 <file>closed.png</file>
 <file>deprecated.html</file>
 <file>dir_24c5c890457908cb185130461432a4ab.html</file>
 <file>dir_24c5c890457908cb185130461432a4ab_dep.png</file>
 <file>dir_d44c64559bbebec7f509842c48db8b23.html</file>
-<file>doc.png</file>
-<file>docd.png</file>
 <file>doxygen.css</file>
 <file>doxygen.svg</file>
+<file>doxygen_crawl.html</file>
 <file>dynsections.js</file>
 <file>files.html</file>
-<file>folderclosed.png</file>
-<file>folderopen.png</file>
 <file>functions.html</file>
 <file>functions_vars.html</file>
 <file>globals.html</file>
@@ -439,13 +435,62 @@
 <file>nav_hd.png</file>
 <file>open.png</file>
 <file>pages.html</file>
+<file>search/all_0.js</file>
+<file>search/all_1.js</file>
+<file>search/all_10.js</file>
+<file>search/all_11.js</file>
+<file>search/all_12.js</file>
+<file>search/all_13.js</file>
+<file>search/all_14.js</file>
+<file>search/all_2.js</file>
+<file>search/all_3.js</file>
+<file>search/all_4.js</file>
+<file>search/all_5.js</file>
+<file>search/all_6.js</file>
+<file>search/all_7.js</file>
+<file>search/all_8.js</file>
+<file>search/all_9.js</file>
+<file>search/all_a.js</file>
+<file>search/all_b.js</file>
+<file>search/all_c.js</file>
+<file>search/all_d.js</file>
+<file>search/all_e.js</file>
+<file>search/all_f.js</file>
+<file>search/classes_0.js</file>
 <file>search/close.svg</file>
+<file>search/enums_0.js</file>
+<file>search/enumvalues_0.js</file>
+<file>search/files_0.js</file>
+<file>search/functions_0.js</file>
 <file>search/mag.svg</file>
 <file>search/mag_d.svg</file>
 <file>search/mag_sel.svg</file>
 <file>search/mag_seld.svg</file>
+<file>search/pages_0.js</file>
+<file>search/pages_1.js</file>
+<file>search/pages_2.js</file>
 <file>search/search.css</file>
 <file>search/search.js</file>
+<file>search/searchdata.js</file>
+<file>search/typedefs_0.js</file>
+<file>search/variables_0.js</file>
+<file>search/variables_1.js</file>
+<file>search/variables_10.js</file>
+<file>search/variables_11.js</file>
+<file>search/variables_2.js</file>
+<file>search/variables_3.js</file>
+<file>search/variables_4.js</file>
+<file>search/variables_5.js</file>
+<file>search/variables_6.js</file>
+<file>search/variables_7.js</file>
+<file>search/variables_8.js</file>
+<file>search/variables_9.js</file>
+<file>search/variables_a.js</file>
+<file>search/variables_b.js</file>
+<file>search/variables_c.js</file>
+<file>search/variables_d.js</file>
+<file>search/variables_e.js</file>
+<file>search/variables_f.js</file>
 <file>splitbar.png</file>
 <file>splitbard.png</file>
 <file>structUriHostDataStructA.html</file>
