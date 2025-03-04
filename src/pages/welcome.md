@@ -49,7 +49,7 @@
 # What is uriparser?
 
 uriparser is a
-strictly [RFC 3986](http://tools.ietf.org/html/rfc3986) compliant
+strictly [RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986) compliant
 URI parsing and handling library
 written in C89 ("ANSI C").
 uriparser is cross-platform,
@@ -78,16 +78,16 @@ Sebastian Pipping
 # Features
 
 * Cross-platform (Unix, Windows, Mac OS X, ...)
-* Strictly compliant to [RFC 3986](http://tools.ietf.org/html/rfc3986) (latest URI RFC on track STD 66 to date)
+* Strictly compliant to [RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986) (latest URI RFC on track STD 66 to date)
     * Parsing
-    * Reference resolution ([section 5.2](http://tools.ietf.org/html/rfc3986#section-5.2), since version 0.4.0)
+    * Reference resolution ([section 5.2](https://datatracker.ietf.org/doc/html/rfc3986#section-5.2), since version 0.4.0)
     * Reference creation (since version 0.5.2)
-    * Recomposition ([section 5.3](http://tools.ietf.org/html/rfc3986#section-5.3), since version 0.4.0)
-    * Syntax-based normalization ([section 6.2.2](http://tools.ietf.org/html/rfc3986#section-6.2.2), since version 0.5.0)
+    * Recomposition ([section 5.3](https://datatracker.ietf.org/doc/html/rfc3986#section-5.3), since version 0.4.0)
+    * Syntax-based normalization ([section 6.2.2](https://datatracker.ietf.org/doc/html/rfc3986#section-6.2.2), since version 0.5.0)
 * Fast (linear input length time complexity)
 * Support for both `char` and `wchar_t` strings
 * No external dependencies
-* Extensive unit testing using [CppTest](http://cpptest.sourceforge.net/)
+* Extensive unit testing using [CppTest](https://cpptest.sourceforge.io/)
 * Liberal license ([New BSD license](https://github.com/uriparser/uriparser/blob/master/COPYING))
 
 
