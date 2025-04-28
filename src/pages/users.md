@@ -28,7 +28,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
 * __A__
     * [aff4](https://github.com/google/aff4) — The Advanced Forensic File Format (see [`src/rdf.cc`](https://github.com/google/aff4/blob/ce976f6a708a0b79b9b767748d80a01ff68069d0/src/rdf.cc))
     * [Apache Arrow](https://arrow.apache.org/) — Cross-language development platform for in-memory data (see [`cpp/src/arrow/util/uri.cc`](https://github.com/apache/arrow/blob/ca2351363ba1724de17eda3dd8ef334d7231f4f8/cpp/src/arrow/util/uri.cc))
-    * [**Asterisk**](http://www.asterisk.org/) — framework for building communications applications (see [` main/uri.c`](http://svn.asterisk.org/svn/asterisk/trunk/main/uri.c))
+    * [**Asterisk**](https://www.asterisk.org/) — framework for building communications applications (see [` main/uri.c`](http://svn.asterisk.org/svn/asterisk/trunk/main/uri.c))
     * [aws_sigv4](https://github.com/penmanglewood/aws_sigv4) — Small C library for generating Amazon Web Services signature version 4 (see [`src/uri.c`](https://github.com/penmanglewood/aws_sigv4/blob/6162061266c69c339d929b603a2c964ca9e3292f/src/uri.c))
 * __B__
     * [BioSignalML C++ library](https://github.com/dbrnz/libbsml_V1) (see [`src/utility/uri_parse.c`](https://github.com/dbrnz/libbsml_V1/blob/e556e2978c7d38c83559e46156720506f7a9c85b/src/utility/uri_parse.c))
@@ -78,20 +78,20 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [libsvg](https://github.com/ravhed/libsvg) — library for SVG files (see [`libsvg/src/svg_uri.c`](https://github.com/ravhed/libsvg/blob/master/libsvg/src/svg_uri.c))
     * [liburi](https://github.com/nevali/liburi) — URI/IRI library based upon uriparser (see [`parse.c`](https://github.com/nevali/liburi/blob/fafac3d662fbdf011c46f055e629ea8b94a12053/parse.c))
     * [libw](https://github.com/winstonli/libw) — Experimental C++ async networking library (see [`src/w/io/data/uri.h`](https://github.com/winstonli/libw/blob/master/src/w/io/data/uri.h))
-    * [libxspf](http://libspiff.sourceforge.net/) — XSPF playlist handling library (see [`src/XspfReader.cpp`](http://git.xiph.org/?p=libxspf.git;a=blob;f=src/XspfReader.cpp;h=4171b90859c89aeb2e24ab9c2bbc50b1da7e224b;hb=HEAD))
+    * [libxspf](https://libspiff.sourceforge.net/) — XSPF playlist handling library (see [`src/XspfReader.cpp`](http://git.xiph.org/?p=libxspf.git;a=blob;f=src/XspfReader.cpp;h=4171b90859c89aeb2e24ab9c2bbc50b1da7e224b;hb=HEAD))
     * [linkshare](https://github.com/lvecsey/linkshare) — LinkShare FastCGI program (see [`json_conv.c`](https://github.com/lvecsey/linkshare/blob/master/json_conv.c))
     * [luna-sysservice](https://github.com/openwebos/luna-sysservice) — Open webOS image manipulation, preference, timezone and ringtone services (see [`Src/UrlRep.cpp`](https://github.com/openwebos/luna-sysservice/blob/c59b806a70bc1489a45f22454f07718bce51d350/Src/UrlRep.cpp))
 * __M__
-    * [Machinekit](http://www.machinekit.io/) — platform for machine control applications (see [` src/machinetalk/webtalk/webtalk_wsproxy.cc`](https://github.com/machinekit/machinekit/blob/9e5dedd360fddd31cb8963a714f7297519c6bd4e/src/machinetalk/webtalk/webtalk_wsproxy.cc))
+    * [Machinekit](https://www.machinekit.io/) — platform for machine control applications (see [` src/machinetalk/webtalk/webtalk_wsproxy.cc`](https://github.com/machinekit/machinekit/blob/9e5dedd360fddd31cb8963a714f7297519c6bd4e/src/machinetalk/webtalk/webtalk_wsproxy.cc))
     * [MediaProcessors](https://github.com/rantoniello/MediaProcessors) — library for multimedia processing and streaming with REST-based control interface (see [`utils/src/uri_parser.c`](https://github.com/rantoniello/MediaProcessors/blob/master/utils/src/uri_parser.c))
-    * [**MiKTeX**](http://miktex.org/) — implementation of TeX/LaTeX and related programs for Windows (see [` Libraries/MiKTeX/Core/Uri.cpp`](https://github.com/TexRussia/miktex/blob/f8a75ab6d2c78ef404649355c6581b71b68ae96a/Libraries/MiKTeX/Core/Uri.cpp))
+    * [**MiKTeX**](https://miktex.org/) — implementation of TeX/LaTeX and related programs for Windows (see [` Libraries/MiKTeX/Core/Uri.cpp`](https://github.com/TexRussia/miktex/blob/f8a75ab6d2c78ef404649355c6581b71b68ae96a/Libraries/MiKTeX/Core/Uri.cpp))
     * [mqtt-http-server](https://github.com/tobyjaffey/mqtt-http-server) — HTTPD supporting [MQTT](https://en.wikipedia.org/wiki/MQTT) for long polled subscriptions (see [`httpd.c`](https://github.com/tobyjaffey/mqtt-http-server/blob/45a676b29b2598d0ee26d39f6f15d7f33a5ab307/httpd.c))
-    * [mulk](http://mulk.sourceforge.net/) — download agent similar to wget/curl (see [`lib/uri_parser.c`](http://sourceforge.net/p/mulk/code/ci/master/tree/lib/uri_parser.c))
+    * [mulk](https://mulk.sourceforge.net/) — download agent similar to wget/curl (see [`lib/uri_parser.c`](http://sourceforge.net/p/mulk/code/ci/master/tree/lib/uri_parser.c))
 * __N__
     * [nodeoze](https://github.com/collobos/nodeoze) — node inspired library for modern c++  (see [`src/nuri.cpp`](https://github.com/collobos/nodeoze/blob/master/src/nuri.cpp))
 * __O__
     * [openFrameworks](https://github.com/openframeworks/openFrameworks) — community-developed cross platform toolkit for creative coding in C++ (see [`libs/openFrameworks/graphics/ofImage.cpp`](https://github.com/openframeworks/openFrameworks/blob/master/libs/openFrameworks/graphics/ofImage.cpp))
-    * [OpenMoko Media Player](http://www.openmoko.org/) — media player for [OM2007.2](http://wiki.openmoko.org/wiki/Om_2007.2) (see [`openmoko-mediaplayer2/src/playlist.c`](https://github.com/shr-project/shr/blob/7f1c1b2fc81ce99815fe7946acf2c8d06502ad73/openmoko-mediaplayer2/src/playlist.c))
+    * [OpenMoko Media Player](https://www.openmoko.org/) — media player for [OM2007.2](https://wiki.openmoko.org/wiki/Om_2007.2) (see [`openmoko-mediaplayer2/src/playlist.c`](https://github.com/shr-project/shr/blob/7f1c1b2fc81ce99815fe7946acf2c8d06502ad73/openmoko-mediaplayer2/src/playlist.c))
     * [Open vStorage VolumeDriver](https://github.com/openvstorage/volumedriver) — core of the Open vStorage solution: a high performance distributed block layer; converts block storage into objects (Storage Container Objects) (see [`src/youtils/Uri.cpp`](https://github.com/openvstorage/volumedriver/blob/dev/src/youtils/Uri.cpp))
     * [Orfeo ToolBox](https://www.orfeo-toolbox.org/) — remote sensing images processing (see [`Utilities/otbkml/src/kml/base/uri_parser.cc`](https://github.com/inglada/OTB/blob/8b6d8a7df9d54c2b13189e00ba8fcb070e78e916/Utilities/otbkml/src/kml/base/uri_parser.cc))
 * __P__
