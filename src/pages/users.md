@@ -100,7 +100,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [Testomato Minicrawler](https://github.com/testomato/minicrawler) (see [`src/crawler.c`](https://github.com/testomato/minicrawler/blob/422c8eb3cddbd77fe7419c37065f9d19c00388e3/src/crawler.c))
     * [tero](https://github.com/djaodjin/tero) — web presentation engine to manage software projects  (see [`src/webserve.cc`](https://github.com/djaodjin/tero/blob/master/src/webserve.cc))
     * [TheVoid](https://github.com/izenecloud/thevoid) — asynchronious event-driven C++ library (see [`thevoid/swarm/url.cpp`](https://github.com/izenecloud/thevoid/blob/62ea68515c382ce70a715c07eda207a1d5930bab/thevoid/swarm/url.cpp))
-    * [~tpm2-tss~](https://github.com/intel/tpm2-tss) — Trusted Computing Group's (TCG) TPM2 Software Stack (TSS) (see [`src/tss2-tcti/tcti-mssim.c`](https://github.com/tpm2-software/tpm2-tss/blob/df1410eddc1c4a963ea4cfae353825710f6ebf13/src/tss2-tcti/tcti-mssim.c))
+    * <s>[tpm2-tss](https://github.com/intel/tpm2-tss) — Trusted Computing Group's (TCG) TPM2 Software Stack (TSS) (see [`src/tss2-tcti/tcti-mssim.c`](https://github.com/tpm2-software/tpm2-tss/blob/df1410eddc1c4a963ea4cfae353825710f6ebf13/src/tss2-tcti/tcti-mssim.c))</s>
     * [Tvheadend](https://tvheadend.org/) — TV streaming server for Linux (see [`src/url.c`](https://github.com/tvheadend/tvheadend/blob/147841b6504496c609e175364c51f5d55abd3fd7/src/url.c))
 * __U__
     * [urbin](https://github.com/verpeteren/urbin) — async'd non-block'd server (see [`src/feature/webclient.h`](https://github.com/verpeteren/urbin/blob/master/src/feature/webclient.h))
