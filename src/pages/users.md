@@ -26,7 +26,6 @@ and
 notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
 
 * __A__
-    * [aff4](https://github.com/google/aff4) — The Advanced Forensic File Format (see [`src/rdf.cc`](https://github.com/google/aff4/blob/ce976f6a708a0b79b9b767748d80a01ff68069d0/src/rdf.cc))
     * [Apache Arrow](https://arrow.apache.org/) — Cross-language development platform for in-memory data (see [`cpp/src/arrow/util/uri.cc`](https://github.com/apache/arrow/blob/ca2351363ba1724de17eda3dd8ef334d7231f4f8/cpp/src/arrow/util/uri.cc))
     * [**Asterisk**](https://www.asterisk.org/) — framework for building communications applications (see [`main/uri.c`](https://github.com/asterisk/asterisk/blob/31c44d06344fd479568cd532adc8d7ff156f8f7e/main/uri.c))
     * [aws_sigv4](https://github.com/penmanglewood/aws_sigv4) — Small C library for generating Amazon Web Services signature version 4 (see [`src/uri.c`](https://github.com/penmanglewood/aws_sigv4/blob/6162061266c69c339d929b603a2c964ca9e3292f/src/uri.c))
@@ -34,11 +33,8 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [BioSignalML C++ library](https://github.com/dbrnz/libbsml_V1) (see [`src/utility/uri_parse.c`](https://github.com/dbrnz/libbsml_V1/blob/e556e2978c7d38c83559e46156720506f7a9c85b/src/utility/uri_parse.c))
     * [bmx](https://sourceforge.net/projects/bmxlib/) — Library and utilities to read and write broadcasting media files; primarily supports the MXF file format (see [`src/common/URI.cpp`](https://sourceforge.net/p/bmxlib/bmx/ci/master/tree/src/common/URI.cpp))
 * __C__
-    * [camin](https://github.com/swishy/camin) — C implementation of amin (see [`libamin/stage/amin.c`](https://github.com/swishy/camin/blob/master/libamin/stage/amin.c))
     * [c-icap-xss](https://github.com/syakesaba/c-icap-xss) — library to defend Reflected XSS (see [`src/services/xss/body/utils/Url.h`](https://github.com/syakesaba/c-icap-xss/blob/master/src/services/xss/body/utils/Url.h))
-    * [Coconut](https://gitlab.com/cucurbita/coconut) — Object Runtime C++ CPP (see [`source/runtime/builtins/nutrt-uri_*.hxx`](https://gitlab.com/cucurbita/coconut/tree/master/source/runtime/builtins))
     * [collada-dom](https://github.com/rdiankov/collada-dom) — COLLADA Document Object Model (DOM) C++ Library (see [`dom/src/dae/daeURI.cpp`](https://github.com/rdiankov/collada-dom/blob/master/dom/src/dae/daeURI.cpp))
-    * [Crawler](https://github.com/Stazer/Crawler) — C++ Web Crawling Framework (see [`Source/Crawler/Link.cpp`](https://github.com/Stazer/Crawler/blob/master/Source/Crawler/Link.cpp))
     * [crawlserv++](https://github.com/crawlserv/crawlservpp) — application for crawling websites and analyzing textual content (see [`crawlserv/src/URIParser.cpp`](https://github.com/crawlserv/crawlservpp/blob/c74e6658e4487d7b9f12e2b1f86e030784f3c73a/crawlserv/src/URIParser.cpp))
 * __D__
     * [DCAF](https://github.com/toha/DCAF) — implementation of the DCAF (draft-gerdes-ace-dcaf-authorize-04) protocol (see [`mediatek/external/uriparser/uriparser_external/UriGlue.c`](https://github.com/Danile71/android_kernel_zte_run4g_mod/blob/master/mediatek/external/uriparser/uriparser_external/UriGlue.c))
@@ -47,11 +43,9 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
 * __F__
     * [FAPG](http://royale.zerezo.com/fapg/) — Fast Audio Playlist Generator (see [`fapg.c`](http://royale.zerezo.com/git/?p=FAPG;a=blob;f=fapg.c;h=0c72af8f2d1518b186b02a76084ce645f8846c01;hb=HEAD))
     * [FedFs utils](https://github.com/Aj0Ay/fedfs-utils) — Federated File System (see [`src/libnsdb/path.c`](https://github.com/Aj0Ay/fedfs-utils/blob/c8f38fc5d1704d92536b1f88aa1aaaf58dbfcb95/src/libnsdb/path.c))
-    * [Finjin (finjin-common)](https://github.com/finjin/finjin-common) — multiplatform 3D visualization & simulation engine suitable for use in the creation of games and other interactive applications (see [`cpp/library/src/Uri.cpp`](https://github.com/finjin/finjin-common/blob/master/cpp/library/src/Uri.cpp))
     * [flood](https://github.com/augustt198/flood) — BitTorrent client (see [`src/util/uri_util.c`](https://github.com/augustt198/flood/blob/9f9c0195719e9f5911b3fb07fa2fcef34895515a/src/util/uri_util.c))
     * [fusedav](https://github.com/pantheon-systems/fusedav) — FUSE-based DAV client (see [`src/props.c`](https://github.com/pantheon-systems/fusedav/blob/4626d55db7b779816e35182ce744fec827066bd0/src/props.c))
 * __G__
-    * [glide](https://github.com/jakeogh/glide) —  simple webkit2 browser (see [`glide.c`](https://github.com/jakeogh/glide/blob/surf-webkit2-custom/glide.c))
     * [gst-plugin-dlnasrc](https://github.com/cisco/gst-plugin-dlnasrc) — retrieve content from a DLNA (Digital Living Network Allicance) DMS (Digital Media Server) (see [`src/gstdlnasrc.c`](https://github.com/cisco/gst-plugin-dlnasrc/blob/master/src/gstdlnasrc.c))
 * __H__
     * [har](https://github.com/otterley/har) — high-availability resolver (see [`har.c`](https://github.com/otterley/har/blob/6f245395b2465afbf7449a2981ee1459a5c4fada/har.c))
@@ -63,8 +57,6 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [InFeRno](https://github.com/brigr/InFeRno) — An Intelligent Framework for Recognizing Pornographic Web Pages (see [`src/bin/sac-parser.cpp`](https://github.com/brigr/InFeRno/blob/3b676a05c38c32f6d437cfd77de9021f8cf24d3b/src/bin/sac-parser.cpp))
 * __J__
     * [jvst](https://github.com/katef/jvst) — json schema validation tool (see [`src/parserutils.h`](https://github.com/katef/jvst/blob/master/src/parserutils.h))
-* __K__
-    * [Kraken](https://github.com/securestate/kraken) — Unified Footprinting (see [`src/http_scan.c`](https://github.com/securestate/kraken/blob/15101ad26df07d9f8c736bc15e10a2cbc4938a02/src/http_scan.c))
 * __L__
     * [libest](https://github.com/cisco/libest) — implements RFC 7030 (Enrollment over Secure Transport) (see [`src/est/est.c`](https://github.com/cisco/libest/blob/master/src/est/est.c))
     * [libkml](https://github.com/google/libkml) — Google's implementation of OGC KML 2.2 (see [`src/kml/base/uri_parser.cc`](https://github.com/google/libkml/blob/8609edf7c8d13ae2ddb6eac2bca7c8e49c67a5f8/src/kml/base/uri_parser.cc))
@@ -72,12 +64,10 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [libpbnjson](https://github.com/openwebos/libpbnjson) — Palm's Better Native JSON library (see [`src/pbnjson_c/jschema.c`](https://github.com/openwebos/libpbnjson/blob/7e02d41e235fd20b78ddefcc0a20401fabaedaa3/src/pbnjson_c/jschema.c))
     * [libpepflashplayer-renderer](https://github.com/max-verem/libpepflashplayer-renderer) — (see [`src/PPB/PPB_URLUtil_Dev.c`](https://github.com/max-verem/libpepflashplayer-renderer/blob/master/src/PPB/PPB_URLUtil_Dev.c))
     * [libpw](https://github.com/skplanet/libpw) (see [`src/pw/pw_uri.cpp`](https://github.com/skplanet/libpw/blob/2974f52bbdd46a7cff5c34d9b7957cd3f7dddb4c/src/pw/pw_uri.cpp))
-    * [librapid](https://github.com/billlin0904/librapid) — Windows asychronous TCP server library (see [`example/http/uri.h`](https://github.com/billlin0904/librapid/blob/5c6e10e39139fa5e66658cdb9a77476709633fd3/example/http/uri.h))
     * [libscep](https://github.com/Javex/libscep) — Implementation of the SCEP protocol in C for both client and server (see [`src/clients/cli/scep-client.h`](https://github.com/Javex/libscep/blob/develop/src/clients/cli/scep-client.h))
     * [libsocketio](https://github.com/isaacwaldron/libsocketio) — C library for Socket.IO (see [`src/lsio_uri.c`](https://github.com/isaacwaldron/libsocketio/blob/master/src/lsio_uri.c))
     * [libsvg](https://github.com/ravhed/libsvg) — library for SVG files (see [`libsvg/src/svg_uri.c`](https://github.com/ravhed/libsvg/blob/master/libsvg/src/svg_uri.c))
     * [liburi](https://github.com/nevali/liburi) — URI/IRI library based upon uriparser (see [`parse.c`](https://github.com/nevali/liburi/blob/fafac3d662fbdf011c46f055e629ea8b94a12053/parse.c))
-    * [libw](https://github.com/winstonli/libw) — Experimental C++ async networking library (see [`src/w/io/data/uri.h`](https://github.com/winstonli/libw/blob/master/src/w/io/data/uri.h))
     * [libxspf](https://libspiff.sourceforge.net/) — XSPF playlist handling library (see [`src/XspfReader.cpp`](http://git.xiph.org/?p=libxspf.git;a=blob;f=src/XspfReader.cpp;h=4171b90859c89aeb2e24ab9c2bbc50b1da7e224b;hb=HEAD))
     * [linkshare](https://github.com/lvecsey/linkshare) — LinkShare FastCGI program (see [`json_conv.c`](https://github.com/lvecsey/linkshare/blob/master/json_conv.c))
     * [luna-sysservice](https://github.com/openwebos/luna-sysservice) — Open webOS image manipulation, preference, timezone and ringtone services (see [`Src/UrlRep.cpp`](https://github.com/openwebos/luna-sysservice/blob/c59b806a70bc1489a45f22454f07718bce51d350/Src/UrlRep.cpp))
@@ -98,12 +88,9 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [PDL Tools](https://github.com/pivotalsoftware/PDLTools) — library of reusable tools used and developed by the Pivotal Data Science and Data Engineering teams (see [`src/modules/uri_utils/uri_utils.c`](https://github.com/pivotalsoftware/PDLTools/blob/master/src/modules/uri_utils/uri_utils.c))
     * [pguri](https://github.com/petere/pguri) — uri type for PostgreSQL (see [` uri.c`](https://github.com/petere/pguri/blob/290dd477f3168bc09c7179960201ea5e9411c7a6/uri.c))
     * [polyorc](https://github.com/codeape/polyorc) — http load generator (see [`polyorclib/polyorcmatcher.c`](https://github.com/codeape/polyorc/blob/master/polyorclib/polyorcmatcher.c))
-* __Q__
-    * [querysort](https://github.com/Dridi/querysort) — RFC 1866 querystring sorting program and library (see [`src/querysort_main.c`](https://github.com/Dridi/querysort/blob/master/src/querysort_main.c))
 * __R__
     * [RobotMoose](http://robotmoose.com/) (see [`jpeg_video_test/uri.cpp`](https://github.com/robotmoose/robotmoose/blob/93b18c671dbaf0682271dcd2894ba77b93d74211/jpeg_video_test/uri.cpp))
 * __S__
-    * [snacka](https://github.com/stuffmatic/snacka) — RFC-6455 compliant websocket client written in C (see [`src/snacka/websocket.c`](https://github.com/stuffmatic/snacka/blob/master/src/snacka/websocket.c))
     * [socket-intents](https://github.com/fg-inet/socket-intents) — Augmented socket interface for applications to express knowledge about their communication (see [`tests/test_socketconnect.c`](https://github.com/fg-inet/socket-intents/blob/release-0.6/tests/test_socketconnect.c))
     * [songcast-receiver](https://github.com/tcatm/songcast-receiver) —  simple Songcast receiver for Pulseaudio (see [`uri.c`](https://github.com/tcatm/songcast-receiver/blob/master/uri.c))
     * [Space Tab bot](https://github.com/mzp/space_tab_bot) — Github bot to detect space-tab-mixed files, and post issue (see [`lib/liburiparser/uriparserext.c`](https://github.com/mzp/space_tab_bot/blob/master/lib/liburiparser/uriparserext.c))
@@ -114,7 +101,6 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [tero](https://github.com/djaodjin/tero) — web presentation engine to manage software projects  (see [`src/webserve.cc`](https://github.com/djaodjin/tero/blob/master/src/webserve.cc))
     * [TheVoid](https://github.com/izenecloud/thevoid) — asynchronious event-driven C++ library (see [`thevoid/swarm/url.cpp`](https://github.com/izenecloud/thevoid/blob/62ea68515c382ce70a715c07eda207a1d5930bab/thevoid/swarm/url.cpp))
     * [~tpm2-tss~](https://github.com/intel/tpm2-tss) — Trusted Computing Group's (TCG) TPM2 Software Stack (TSS) (see [`src/tss2-tcti/tcti-mssim.c`](https://github.com/tpm2-software/tpm2-tss/blob/df1410eddc1c4a963ea4cfae353825710f6ebf13/src/tss2-tcti/tcti-mssim.c))
-    * [trecul](https://github.com/akamai-tech/trecul) — C++ dataflow library (see [`ads-df/FileSystem.cc`](https://github.com/akamai-tech/trecul/blob/84e5fb2aeb36db868086209599bfaa20cbd1abc8/ads-df/FileSystem.cc))
     * [Tvheadend](https://tvheadend.org/) — TV streaming server for Linux (see [`src/url.c`](https://github.com/tvheadend/tvheadend/blob/147841b6504496c609e175364c51f5d55abd3fd7/src/url.c))
 * __U__
     * [urbin](https://github.com/verpeteren/urbin) — async'd non-block'd server (see [`src/feature/webclient.h`](https://github.com/verpeteren/urbin/blob/master/src/feature/webclient.h))
