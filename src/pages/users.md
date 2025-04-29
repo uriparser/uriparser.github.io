@@ -28,7 +28,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
 * __A__
     * [aff4](https://github.com/google/aff4) — The Advanced Forensic File Format (see [`src/rdf.cc`](https://github.com/google/aff4/blob/ce976f6a708a0b79b9b767748d80a01ff68069d0/src/rdf.cc))
     * [Apache Arrow](https://arrow.apache.org/) — Cross-language development platform for in-memory data (see [`cpp/src/arrow/util/uri.cc`](https://github.com/apache/arrow/blob/ca2351363ba1724de17eda3dd8ef334d7231f4f8/cpp/src/arrow/util/uri.cc))
-    * [**Asterisk**](https://www.asterisk.org/) — framework for building communications applications (see [` main/uri.c`](http://svn.asterisk.org/svn/asterisk/trunk/main/uri.c))
+    * [**Asterisk**](https://www.asterisk.org/) — framework for building communications applications (see [`main/uri.c`](https://github.com/asterisk/asterisk/blob/31c44d06344fd479568cd532adc8d7ff156f8f7e/main/uri.c))
     * [aws_sigv4](https://github.com/penmanglewood/aws_sigv4) — Small C library for generating Amazon Web Services signature version 4 (see [`src/uri.c`](https://github.com/penmanglewood/aws_sigv4/blob/6162061266c69c339d929b603a2c964ca9e3292f/src/uri.c))
 * __B__
     * [BioSignalML C++ library](https://github.com/dbrnz/libbsml_V1) (see [`src/utility/uri_parse.c`](https://github.com/dbrnz/libbsml_V1/blob/e556e2978c7d38c83559e46156720506f7a9c85b/src/utility/uri_parse.c))
@@ -84,11 +84,11 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
 * __M__
     * [Machinekit](https://www.machinekit.io/) — platform for machine control applications (see [` src/machinetalk/webtalk/webtalk_wsproxy.cc`](https://github.com/machinekit/machinekit/blob/9e5dedd360fddd31cb8963a714f7297519c6bd4e/src/machinetalk/webtalk/webtalk_wsproxy.cc))
     * [MediaProcessors](https://github.com/rantoniello/MediaProcessors) — library for multimedia processing and streaming with REST-based control interface (see [`utils/src/uri_parser.c`](https://github.com/rantoniello/MediaProcessors/blob/master/utils/src/uri_parser.c))
-    * [**MiKTeX**](https://miktex.org/) — implementation of TeX/LaTeX and related programs for Windows (see [` Libraries/MiKTeX/Core/Uri.cpp`](https://github.com/TexRussia/miktex/blob/f8a75ab6d2c78ef404649355c6581b71b68ae96a/Libraries/MiKTeX/Core/Uri.cpp))
+    * [**MiKTeX**](https://miktex.org/) — implementation of TeX/LaTeX and related programs for Windows (see [`Libraries/MiKTeX/Core/Uri.cpp`](https://github.com/MiKTeX/miktex/blob/39112fd93f63d966dc6864754d4a96d1a21ede19/Libraries/MiKTeX/Core/Uri/Uri.cpp))
     * [mqtt-http-server](https://github.com/tobyjaffey/mqtt-http-server) — HTTPD supporting [MQTT](https://en.wikipedia.org/wiki/MQTT) for long polled subscriptions (see [`httpd.c`](https://github.com/tobyjaffey/mqtt-http-server/blob/45a676b29b2598d0ee26d39f6f15d7f33a5ab307/httpd.c))
-    * [mulk](https://mulk.sourceforge.net/) — download agent similar to wget/curl (see [`lib/uri_parser.c`](http://sourceforge.net/p/mulk/code/ci/master/tree/lib/uri_parser.c))
+    * [mulk](https://mulk.sourceforge.net/) — download agent similar to wget/curl (see [`lib/uri_parser.c`](https://github.com/emabo/mulk/blob/60f28f62fba1a13db762308f0bf35462e1047ae3/lib/uri_parser.c))
 * __N__
-    * [nodeoze](https://github.com/collobos/nodeoze) — node inspired library for modern c++  (see [`src/nuri.cpp`](https://github.com/collobos/nodeoze/blob/master/src/nuri.cpp))
+    * [nodeoze](https://github.com/collobos/nodeoze) — node inspired library for modern c++  (see [`src/uri.cpp`](https://github.com/collobos/nodeoze/blob/6b09c9c2ef0ca11077c5ce49459f988228257899/src/uri.cpp))
 * __O__
     * [openFrameworks](https://github.com/openframeworks/openFrameworks) — community-developed cross platform toolkit for creative coding in C++ (see [`libs/openFrameworks/graphics/ofImage.cpp`](https://github.com/openframeworks/openFrameworks/blob/master/libs/openFrameworks/graphics/ofImage.cpp))
     * [OpenMoko Media Player](https://www.openmoko.org/) — media player for [OM2007.2](https://wiki.openmoko.org/wiki/Om_2007.2) (see [`openmoko-mediaplayer2/src/playlist.c`](https://github.com/shr-project/shr/blob/7f1c1b2fc81ce99815fe7946acf2c8d06502ad73/openmoko-mediaplayer2/src/playlist.c))
@@ -113,7 +113,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [Testomato Minicrawler](https://github.com/testomato/minicrawler) (see [`src/crawler.c`](https://github.com/testomato/minicrawler/blob/422c8eb3cddbd77fe7419c37065f9d19c00388e3/src/crawler.c))
     * [tero](https://github.com/djaodjin/tero) — web presentation engine to manage software projects  (see [`src/webserve.cc`](https://github.com/djaodjin/tero/blob/master/src/webserve.cc))
     * [TheVoid](https://github.com/izenecloud/thevoid) — asynchronious event-driven C++ library (see [`thevoid/swarm/url.cpp`](https://github.com/izenecloud/thevoid/blob/62ea68515c382ce70a715c07eda207a1d5930bab/thevoid/swarm/url.cpp))
-    * [tpm2-tss](https://github.com/intel/tpm2-tss) — Trusted Computing Group's (TCG) TPM2 Software Stack (TSS) (see [`tcti/tcti_socket.c`](https://github.com/intel/tpm2-tss/blob/master/tcti/tcti_socket.c))
+    * [~tpm2-tss~](https://github.com/intel/tpm2-tss) — Trusted Computing Group's (TCG) TPM2 Software Stack (TSS) (see [`src/tss2-tcti/tcti-mssim.c`](https://github.com/tpm2-software/tpm2-tss/blob/df1410eddc1c4a963ea4cfae353825710f6ebf13/src/tss2-tcti/tcti-mssim.c))
     * [trecul](https://github.com/akamai-tech/trecul) — C++ dataflow library (see [`ads-df/FileSystem.cc`](https://github.com/akamai-tech/trecul/blob/84e5fb2aeb36db868086209599bfaa20cbd1abc8/ads-df/FileSystem.cc))
     * [Tvheadend](https://tvheadend.org/) — TV streaming server for Linux (see [`src/url.c`](https://github.com/tvheadend/tvheadend/blob/147841b6504496c609e175364c51f5d55abd3fd7/src/url.c))
 * __U__
