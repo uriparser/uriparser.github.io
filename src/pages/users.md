@@ -68,7 +68,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [libsocketio](https://github.com/isaacwaldron/libsocketio) — C library for Socket.IO (see [`src/lsio_uri.c`](https://github.com/isaacwaldron/libsocketio/blob/master/src/lsio_uri.c))
     * [libsvg](https://github.com/ravhed/libsvg) — library for SVG files (see [`libsvg/src/svg_uri.c`](https://github.com/ravhed/libsvg/blob/master/libsvg/src/svg_uri.c))
     * [liburi](https://github.com/nevali/liburi) — URI/IRI library based upon uriparser (see [`parse.c`](https://github.com/nevali/liburi/blob/fafac3d662fbdf011c46f055e629ea8b94a12053/parse.c))
-    * [libxspf](https://libspiff.sourceforge.net/) — XSPF playlist handling library (see [`src/XspfReader.cpp`](http://git.xiph.org/?p=libxspf.git;a=blob;f=src/XspfReader.cpp;h=4171b90859c89aeb2e24ab9c2bbc50b1da7e224b;hb=HEAD))
+    * [libxspf](https://libspiff.sourceforge.net/) — XSPF playlist handling library (see [`src/XspfReader.cpp`](https://gitlab.xiph.org/xiph/libxspf/-/blob/63495bcec37fccbe955ccab106c1fd1ea49cb965/src/XspfReader.cpp))
     * [linkshare](https://github.com/lvecsey/linkshare) — LinkShare FastCGI program (see [`json_conv.c`](https://github.com/lvecsey/linkshare/blob/master/json_conv.c))
     * [luna-sysservice](https://github.com/openwebos/luna-sysservice) — Open webOS image manipulation, preference, timezone and ringtone services (see [`Src/UrlRep.cpp`](https://github.com/openwebos/luna-sysservice/blob/c59b806a70bc1489a45f22454f07718bce51d350/Src/UrlRep.cpp))
 * __M__
