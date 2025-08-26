@@ -28,4 +28,5 @@ from languages other than C.
 * __OOC__
     * [ooc-uriparser](https://github.com/fredreichbier/ooc-uriparser)
 * __Ruby__
+    * [mruby-uriparser](https://github.com/gemmaro/mruby-uriparser)
     * [ruby-uriparser](https://github.com/tlewin/ruby-uriparser)
