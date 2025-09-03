@@ -10,10 +10,11 @@ var searchData=
   ['uri_5fnormalize_5ffragment_7',['URI_NORMALIZE_FRAGMENT',['../UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400a4fc81bbbfdb1eef5da3a10177337be94',1,'UriBase.h']]],
   ['uri_5fnormalize_5fhost_8',['URI_NORMALIZE_HOST',['../UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400a37be5f9fe86052f86fd122bb88e1ef4b',1,'UriBase.h']]],
   ['uri_5fnormalize_5fpath_9',['URI_NORMALIZE_PATH',['../UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400ac944b8ea0cfa88f78fe4bfa72934ef80',1,'UriBase.h']]],
-  ['uri_5fnormalize_5fquery_10',['URI_NORMALIZE_QUERY',['../UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400a1cb6e4afe63436dda2a03e51a95a5147',1,'UriBase.h']]],
-  ['uri_5fnormalize_5fscheme_11',['URI_NORMALIZE_SCHEME',['../UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400aed80a4777751564b865f26940169fc23',1,'UriBase.h']]],
-  ['uri_5fnormalize_5fuser_5finfo_12',['URI_NORMALIZE_USER_INFO',['../UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400ab5268c99bba09a7624fc98f0780dc618',1,'UriBase.h']]],
-  ['uri_5fnormalized_13',['URI_NORMALIZED',['../UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400a9d4ae02baec352c6078dc615905b7eb1',1,'UriBase.h']]],
-  ['uri_5fresolve_5fidentical_5fscheme_5fcompat_14',['URI_RESOLVE_IDENTICAL_SCHEME_COMPAT',['../UriBase_8h.html#a1cdbeee44519b34292fab4b7d9213df1afc17d64c3fb7a315616512cd96b23f06',1,'UriBase.h']]],
-  ['uri_5fresolve_5fstrictly_15',['URI_RESOLVE_STRICTLY',['../UriBase_8h.html#a1cdbeee44519b34292fab4b7d9213df1acba2ad4d13d6d74094b5ae65ee4d82bb',1,'UriBase.h']]]
+  ['uri_5fnormalize_5fport_10',['URI_NORMALIZE_PORT',['../UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400a674d856133c44b65fb9a3b9bf225cd0f',1,'UriBase.h']]],
+  ['uri_5fnormalize_5fquery_11',['URI_NORMALIZE_QUERY',['../UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400a1cb6e4afe63436dda2a03e51a95a5147',1,'UriBase.h']]],
+  ['uri_5fnormalize_5fscheme_12',['URI_NORMALIZE_SCHEME',['../UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400aed80a4777751564b865f26940169fc23',1,'UriBase.h']]],
+  ['uri_5fnormalize_5fuser_5finfo_13',['URI_NORMALIZE_USER_INFO',['../UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400ab5268c99bba09a7624fc98f0780dc618',1,'UriBase.h']]],
+  ['uri_5fnormalized_14',['URI_NORMALIZED',['../UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400a9d4ae02baec352c6078dc615905b7eb1',1,'UriBase.h']]],
+  ['uri_5fresolve_5fidentical_5fscheme_5fcompat_15',['URI_RESOLVE_IDENTICAL_SCHEME_COMPAT',['../UriBase_8h.html#a1cdbeee44519b34292fab4b7d9213df1afc17d64c3fb7a315616512cd96b23f06',1,'UriBase.h']]],
+  ['uri_5fresolve_5fstrictly_16',['URI_RESOLVE_STRICTLY',['../UriBase_8h.html#a1cdbeee44519b34292fab4b7d9213df1acba2ad4d13d6d74094b5ae65ee4d82bb',1,'UriBase.h']]]
 ];

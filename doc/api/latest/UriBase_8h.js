@@ -31,7 +31,8 @@ var UriBase_8h =
       [ "URI_NORMALIZE_HOST", "UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400a37be5f9fe86052f86fd122bb88e1ef4b", null ],
       [ "URI_NORMALIZE_PATH", "UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400ac944b8ea0cfa88f78fe4bfa72934ef80", null ],
       [ "URI_NORMALIZE_QUERY", "UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400a1cb6e4afe63436dda2a03e51a95a5147", null ],
-      [ "URI_NORMALIZE_FRAGMENT", "UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400a4fc81bbbfdb1eef5da3a10177337be94", null ]
+      [ "URI_NORMALIZE_FRAGMENT", "UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400a4fc81bbbfdb1eef5da3a10177337be94", null ],
+      [ "URI_NORMALIZE_PORT", "UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400a674d856133c44b65fb9a3b9bf225cd0f", null ]
     ] ],
     [ "UriResolutionOptionsEnum", "UriBase_8h.html#a1cdbeee44519b34292fab4b7d9213df1", [
       [ "URI_RESOLVE_STRICTLY", "UriBase_8h.html#a1cdbeee44519b34292fab4b7d9213df1acba2ad4d13d6d74094b5ae65ee4d82bb", null ],
