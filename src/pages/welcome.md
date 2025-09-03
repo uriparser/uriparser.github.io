@@ -1,7 +1,7 @@
 <!--
 .. title: Welcome to uriparser!
 .. slug: index
-.. date: 2024-05-05 19:09:00 UTC+2
+.. date: 2025-09-03 23:32:00 UTC+2
 .. tags:
 .. category:
 .. link:
@@ -11,6 +11,9 @@
 
 # Latest News
 
+* 2025-09-03 —
+  [uriparser 0.9.**9**](https://github.com/uriparser/uriparser/blob/uriparser-0.9.9/ChangeLog)
+  has been released
 * 2024-05-05 —
   [uriparser 0.9.**8**](https://github.com/uriparser/uriparser/blob/uriparser-0.9.8/ChangeLog)
   has been released, includes **security fixes**
