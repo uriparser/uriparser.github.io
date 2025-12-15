@@ -41,5 +41,6 @@ var UriBase_8h =
     [ "uriCompleteMemoryManager", "UriBase_8h.html#ae7811d209ed03e3a7e6e9a021a3a5fb4", null ],
     [ "uriEmulateCalloc", "UriBase_8h.html#a83070f1c356f702a168c92d0704e9d80", null ],
     [ "uriEmulateReallocarray", "UriBase_8h.html#afa27685237a224144d877356e83fc4f1", null ],
-    [ "uriTestMemoryManager", "UriBase_8h.html#ac6bed1fb193bfe991cfb384bed299489", null ]
+    [ "uriTestMemoryManager", "UriBase_8h.html#ac6bed1fb193bfe991cfb384bed299489", null ],
+    [ "uriTestMemoryManagerEx", "UriBase_8h.html#a66c43e01f60bd2ca427bda480baf403c", null ]
 ];

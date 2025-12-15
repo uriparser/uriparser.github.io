@@ -17,6 +17,7 @@ var NAVTREEINDEX0 =
 "UriBase_8h.html#a411334aa7c810d330d05a50504a7cfccab92b817e0d5216fea9c8aadb6640b0d8":[7,0,0,0,1,15,3],
 "UriBase_8h.html#a411334aa7c810d330d05a50504a7cfccaeb14ced8ebdf1dc3ec29796560e24feb":[7,0,0,0,1,15,0],
 "UriBase_8h.html#a6057d82ce33c4f7f2ab3ddffd1f4e737":[7,0,0,0,1,9],
+"UriBase_8h.html#a66c43e01f60bd2ca427bda480baf403c":[7,0,0,0,1,22],
 "UriBase_8h.html#a79cf947ebd1afabf3de855f2ff75772b":[7,0,0,0,1,13],
 "UriBase_8h.html#a83070f1c356f702a168c92d0704e9d80":[7,0,0,0,1,19],
 "UriBase_8h.html#a8b1d8969ad9d61b422ccdcbb8f720176":[7,0,0,0,1,5],

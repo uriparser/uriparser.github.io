@@ -26,7 +26,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">uriparser<span id="projectnumber">&#160;0.9.9</span>
+   <div id="projectname">uriparser<span id="projectnumber">&#160;1.0.0</span>
    </div>
   </td>
  </tr>
@@ -248,8 +248,8 @@ Normalizing URIs</h2>
 <div class="line">    <span class="comment">/* Failure */</span></div>
 <div class="line">    ...</div>
 <div class="line">}</div>
-<div class="ttc" id="aUriBase_8h_html_ac0a876ae3fbf22bdfa8d3e4a24838400ab5268c99bba09a7624fc98f0780dc618"><div class="ttname"><a href="UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400ab5268c99bba09a7624fc98f0780dc618">URI_NORMALIZE_USER_INFO</a></div><div class="ttdeci">@ URI_NORMALIZE_USER_INFO</div><div class="ttdef"><b>Definition</b> UriBase.h:183</div></div>
-<div class="ttc" id="aUriBase_8h_html_ac0a876ae3fbf22bdfa8d3e4a24838400aed80a4777751564b865f26940169fc23"><div class="ttname"><a href="UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400aed80a4777751564b865f26940169fc23">URI_NORMALIZE_SCHEME</a></div><div class="ttdeci">@ URI_NORMALIZE_SCHEME</div><div class="ttdef"><b>Definition</b> UriBase.h:182</div></div>
+<div class="ttc" id="aUriBase_8h_html_ac0a876ae3fbf22bdfa8d3e4a24838400ab5268c99bba09a7624fc98f0780dc618"><div class="ttname"><a href="UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400ab5268c99bba09a7624fc98f0780dc618">URI_NORMALIZE_USER_INFO</a></div><div class="ttdeci">@ URI_NORMALIZE_USER_INFO</div><div class="ttdef"><b>Definition</b> UriBase.h:186</div></div>
+<div class="ttc" id="aUriBase_8h_html_ac0a876ae3fbf22bdfa8d3e4a24838400aed80a4777751564b865f26940169fc23"><div class="ttname"><a href="UriBase_8h.html#ac0a876ae3fbf22bdfa8d3e4a24838400aed80a4777751564b865f26940169fc23">URI_NORMALIZE_SCHEME</a></div><div class="ttdeci">@ URI_NORMALIZE_SCHEME</div><div class="ttdef"><b>Definition</b> UriBase.h:185</div></div>
 </div><!-- fragment --><p>Please see UriNormalizationMaskEnum for the complete set of flags.</p>
 <p>On the other hand calling plain uriNormalizeSyntaxA() (without the &quot;Ex&quot;) saves you thinking about single parts, as it queries uriNormalizeSyntaxMaskRequiredA() internally:</p>
 <div class="fragment"><div class="line"><span class="keywordflow">if</span> (<a class="code hl_function" href="Uri_8h.html#a50176d4c0c0fb7d40e0e4990d0c7d7bf">uriNormalizeSyntaxA</a>(&amp;uri) != URI_SUCCESS) {</div>
@@ -276,7 +276,7 @@ Working with Query Strings</h1>
 <div class="ttc" id="aUri_8h_html_a5441622cbc7a14fa53fd29e6fa01a5a8"><div class="ttname"><a href="Uri_8h.html#a5441622cbc7a14fa53fd29e6fa01a5a8">UriQueryListA</a></div><div class="ttdeci">struct UriQueryListStructA UriQueryListA</div></div>
 <div class="ttc" id="astructUriTextRangeStructA_html_a6f1e1048b5e74fe6c7a680ff99138f68"><div class="ttname"><a href="structUriTextRangeStructA.html#a6f1e1048b5e74fe6c7a680ff99138f68">UriTextRangeStructA::first</a></div><div class="ttdeci">const char * first</div><div class="ttdef"><b>Definition</b> Uri.h:334</div></div>
 <div class="ttc" id="astructUriTextRangeStructA_html_a86aea0aab8d5ee912c3b260bdd9af67e"><div class="ttname"><a href="structUriTextRangeStructA.html#a86aea0aab8d5ee912c3b260bdd9af67e">UriTextRangeStructA::afterLast</a></div><div class="ttdeci">const char * afterLast</div><div class="ttdef"><b>Definition</b> Uri.h:335</div></div>
-<div class="ttc" id="astructUriUriStructA_html_acb555eb399898672c7b069da0f444157"><div class="ttname"><a href="structUriUriStructA.html#acb555eb399898672c7b069da0f444157">UriUriStructA::query</a></div><div class="ttdeci">UriTextRangeA query</div><div class="ttdef"><b>Definition</b> Uri.h:385</div></div>
+<div class="ttc" id="astructUriUriStructA_html_acb555eb399898672c7b069da0f444157"><div class="ttname"><a href="structUriUriStructA.html#acb555eb399898672c7b069da0f444157">UriUriStructA::query</a></div><div class="ttdeci">UriTextRangeA query</div><div class="ttdef"><b>Definition</b> Uri.h:388</div></div>
 </div><!-- fragment --><dl class="section remark"><dt>Remarks</dt><dd><ul>
 <li><code>NULL</code> in the <code>value</code> member means there was <b>no</b> '=' in the item text as with "?abc&amp;def".</li>
 <li>An empty string in the <code>value</code> member means there was '=' in the item as with "?abc=&amp;def".</li>

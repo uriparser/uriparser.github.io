@@ -79,12 +79,13 @@ var searchData=
   ['urisetuserinfoa_76',['uriSetUserInfoA',['../Uri_8h.html#aee07d5cf40bc5898d56a493fbfd25e2e',1,'Uri.h']]],
   ['urisetuserinfomma_77',['uriSetUserInfoMmA',['../Uri_8h.html#ae193fb7a9d6046d98ce92c916451866a',1,'Uri.h']]],
   ['uritestmemorymanager_78',['uriTestMemoryManager',['../UriBase_8h.html#ac6bed1fb193bfe991cfb384bed299489',1,'UriBase.h']]],
-  ['uritostringa_79',['uriToStringA',['../Uri_8h.html#a4a9539cfdd85866a1ef6916c631f8bc2',1,'Uri.h']]],
-  ['uritostringcharsrequireda_80',['uriToStringCharsRequiredA',['../Uri_8h.html#ae57c60e8166c44163af6d0434329fe73',1,'Uri.h']]],
-  ['uriunescapeinplacea_81',['uriUnescapeInPlaceA',['../Uri_8h.html#ad947ef6cb8329483cc917d0254fa2c4b',1,'Uri.h']]],
-  ['uriunescapeinplaceexa_82',['uriUnescapeInPlaceExA',['../Uri_8h.html#ab7be2dd99b67c3b74dd2269ada998d38',1,'Uri.h']]],
-  ['uriunixfilenametouristringa_83',['uriUnixFilenameToUriStringA',['../Uri_8h.html#ab394fe8e5e9b6863e4dfd2ae6b464960',1,'Uri.h']]],
-  ['uriuristringtounixfilenamea_84',['uriUriStringToUnixFilenameA',['../Uri_8h.html#a26920c57a9ad92041bc797c29b7bdb92',1,'Uri.h']]],
-  ['uriuristringtowindowsfilenamea_85',['uriUriStringToWindowsFilenameA',['../Uri_8h.html#ab9cd18296649e2443495e26f661e1313',1,'Uri.h']]],
-  ['uriwindowsfilenametouristringa_86',['uriWindowsFilenameToUriStringA',['../Uri_8h.html#a4a071c1c4867b49b122dc4fcb1d3021a',1,'Uri.h']]]
+  ['uritestmemorymanagerex_79',['uriTestMemoryManagerEx',['../UriBase_8h.html#a66c43e01f60bd2ca427bda480baf403c',1,'UriBase.h']]],
+  ['uritostringa_80',['uriToStringA',['../Uri_8h.html#a4a9539cfdd85866a1ef6916c631f8bc2',1,'Uri.h']]],
+  ['uritostringcharsrequireda_81',['uriToStringCharsRequiredA',['../Uri_8h.html#ae57c60e8166c44163af6d0434329fe73',1,'Uri.h']]],
+  ['uriunescapeinplacea_82',['uriUnescapeInPlaceA',['../Uri_8h.html#ad947ef6cb8329483cc917d0254fa2c4b',1,'Uri.h']]],
+  ['uriunescapeinplaceexa_83',['uriUnescapeInPlaceExA',['../Uri_8h.html#ab7be2dd99b67c3b74dd2269ada998d38',1,'Uri.h']]],
+  ['uriunixfilenametouristringa_84',['uriUnixFilenameToUriStringA',['../Uri_8h.html#ab394fe8e5e9b6863e4dfd2ae6b464960',1,'Uri.h']]],
+  ['uriuristringtounixfilenamea_85',['uriUriStringToUnixFilenameA',['../Uri_8h.html#a26920c57a9ad92041bc797c29b7bdb92',1,'Uri.h']]],
+  ['uriuristringtowindowsfilenamea_86',['uriUriStringToWindowsFilenameA',['../Uri_8h.html#ab9cd18296649e2443495e26f661e1313',1,'Uri.h']]],
+  ['uriwindowsfilenametouristringa_87',['uriWindowsFilenameToUriStringA',['../Uri_8h.html#a4a071c1c4867b49b122dc4fcb1d3021a',1,'Uri.h']]]
 ];
