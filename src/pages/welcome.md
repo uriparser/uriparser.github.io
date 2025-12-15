@@ -1,7 +1,7 @@
 <!--
 .. title: Welcome to uriparser!
 .. slug: index
-.. date: 2025-12-15 20:33:00 UTC+1
+.. date: 2025-12-16 00:17:00 UTC+1
 .. tags:
 .. category:
 .. link:
@@ -26,30 +26,7 @@
 * 2022-01-06 —
   [uriparser 0.9.**6**](https://github.com/uriparser/uriparser/blob/uriparser-0.9.6/ChangeLog)
   has been released, includes **security fixes**
-* 2021-03-18 —
-  [uriparser 0.9.**5**](https://github.com/uriparser/uriparser/blob/uriparser-0.9.5/ChangeLog)
-  has been released
-* 2020-05-31 —
-  [uriparser 0.9.**4**](https://github.com/uriparser/uriparser/blob/uriparser-0.9.4/ChangeLog)
-  has been released
-* 2019-04-28 —
-  [uriparser 0.9.**3**](https://github.com/uriparser/uriparser/blob/uriparser-0.9.3/ChangeLog)
-  has been released
-* 2019-04-22 —
-  [uriparser 0.9.**2**](https://github.com/uriparser/uriparser/blob/uriparser-0.9.2/ChangeLog)
-  has been released
-* 2019-01-02 —
-  [uriparser 0.9.**1**](https://github.com/uriparser/uriparser/blob/uriparser-0.9.1/ChangeLog)
-  has been released, includes **security fixes**
-* 2018-10-27 —
-  [uriparser 0.**9**.**0**](https://github.com/uriparser/uriparser/blob/uriparser-0.9.0/ChangeLog)
-  has been released, includes **security fixes**
-* 2018-08-18 —
-  [uriparser 0.8.**6**](https://github.com/uriparser/uriparser/blob/uriparser-0.8.6/ChangeLog)
-  has been released
-* 2018-02-07 —
-  [uriparser 0.8.**5**](https://github.com/uriparser/uriparser/blob/uriparser-0.8.5/ChangeLog)
-  has been released
+* …
 
 
 # What is uriparser?
