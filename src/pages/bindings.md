@@ -1,7 +1,7 @@
 <!--
 .. title: uriparser Bindings & 3rd-party Wrappers
 .. slug: bindings
-.. date: 2018-01-06 23:36:06 UTC
+.. date: 2025-12-15 23:04:00 UTC+1
 .. tags:
 .. category:
 .. link:
@@ -27,6 +27,8 @@ from languages other than C.
     * [node-uriparser](https://github.com/DreamLab/node-uriparser)
 * __OOC__
     * [ooc-uriparser](https://github.com/fredreichbier/ooc-uriparser)
+* __Prolog__
+    * [prolog_uriparser](https://github.com/wouterbeek/prolog_uriparser)
 * __Ruby__
     * [mruby-uriparser](https://github.com/gemmaro/mruby-uriparser)
     * [ruby-uriparser](https://github.com/tlewin/ruby-uriparser)
