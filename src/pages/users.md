@@ -87,6 +87,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
 * __P__
     * [PDL Tools](https://github.com/pivotalsoftware/PDLTools) — library of reusable tools used and developed by the Pivotal Data Science and Data Engineering teams (see [`src/modules/uri_utils/uri_utils.c`](https://github.com/pivotalsoftware/PDLTools/blob/master/src/modules/uri_utils/uri_utils.c))
     * [pguri](https://github.com/petere/pguri) — uri type for PostgreSQL (see [` uri.c`](https://github.com/petere/pguri/blob/290dd477f3168bc09c7179960201ea5e9411c7a6/uri.c))
+    * [**PHP**](https://github.com/php/php-src/tree/master/ext/uri/uriparser) — extension "uri" of PHP >=8.5
     * [polyorc](https://github.com/codeape/polyorc) — http load generator (see [`polyorclib/polyorcmatcher.c`](https://github.com/codeape/polyorc/blob/master/polyorclib/polyorcmatcher.c))
 * __R__
     * [RobotMoose](http://robotmoose.com/) (see [`jpeg_video_test/uri.cpp`](https://github.com/robotmoose/robotmoose/blob/93b18c671dbaf0682271dcd2894ba77b93d74211/jpeg_video_test/uri.cpp))
