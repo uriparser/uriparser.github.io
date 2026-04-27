@@ -11,6 +11,9 @@
 
 # Latest News
 
+* 2026-04-27 —
+  [uriparser 1.0.**1**](https://github.com/uriparser/uriparser/blob/uriparser-1.0.1/ChangeLog)
+  has been released, includes **security fixes**
 * 2025-12-15 —
   [uriparser **1**.0.0](https://github.com/uriparser/uriparser/blob/uriparser-1.0.0/ChangeLog)
   has been released, includes **security fixes**
@@ -23,9 +26,6 @@
 * 2022-10-05 —
   [uriparser 0.9.**7**](https://github.com/uriparser/uriparser/blob/uriparser-0.9.7/ChangeLog)
   has been released
-* 2022-01-06 —
-  [uriparser 0.9.**6**](https://github.com/uriparser/uriparser/blob/uriparser-0.9.6/ChangeLog)
-  has been released, includes **security fixes**
 * …
 
 
