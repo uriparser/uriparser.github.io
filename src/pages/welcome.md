@@ -15,7 +15,7 @@
   [uriparser 1.0.**1**](https://github.com/uriparser/uriparser/blob/uriparser-1.0.1/ChangeLog)
   has been released, includes **security fixes**
 * 2025-12-15 —
-  [uriparser **1**.0.0](https://github.com/uriparser/uriparser/blob/uriparser-1.0.0/ChangeLog)
+  [uriparser **1**.**0**.**0**](https://github.com/uriparser/uriparser/blob/uriparser-1.0.0/ChangeLog)
   has been released, includes **security fixes**
 * 2025-09-03 —
   [uriparser 0.9.**9**](https://github.com/uriparser/uriparser/blob/uriparser-0.9.9/ChangeLog)
