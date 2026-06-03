@@ -44,6 +44,7 @@ notable, e.g. be packaged in multiple (unrelated) distributions of GNU/Linux.
     * [FAPG](http://royale.zerezo.com/fapg/) — Fast Audio Playlist Generator (see [`fapg.c`](http://royale.zerezo.com/git/?p=FAPG;a=blob;f=fapg.c;h=0c72af8f2d1518b186b02a76084ce645f8846c01;hb=HEAD))
     * [FedFs utils](https://github.com/Aj0Ay/fedfs-utils) — Federated File System (see [`src/libnsdb/path.c`](https://github.com/Aj0Ay/fedfs-utils/blob/c8f38fc5d1704d92536b1f88aa1aaaf58dbfcb95/src/libnsdb/path.c))
     * [flood](https://github.com/augustt198/flood) — BitTorrent client (see [`src/util/uri_util.c`](https://github.com/augustt198/flood/blob/9f9c0195719e9f5911b3fb07fa2fcef34895515a/src/util/uri_util.c))
+    * [FreeRDP](https://www.freerdp.com/) — implementation of the Remote Desktop Protocol (RDP) (see [`winpr/libwinpr/crt/string.c`](https://github.com/FreeRDP/FreeRDP/blob/1c1f2c48d569865eda36f572a13bcc54902ed484/winpr/libwinpr/crt/string.c#L33))
     * [fusedav](https://github.com/pantheon-systems/fusedav) — FUSE-based DAV client (see [`src/props.c`](https://github.com/pantheon-systems/fusedav/blob/4626d55db7b779816e35182ce744fec827066bd0/src/props.c))
 * __G__
     * [gst-plugin-dlnasrc](https://github.com/cisco/gst-plugin-dlnasrc) — retrieve content from a DLNA (Digital Living Network Allicance) DMS (Digital Media Server) (see [`src/gstdlnasrc.c`](https://github.com/cisco/gst-plugin-dlnasrc/blob/master/src/gstdlnasrc.c))
